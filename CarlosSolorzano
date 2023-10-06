@@ -1,0 +1,1864 @@
+Funcion ejer1
+	//ent . a=3 y b=7, encuentra el valor de x=2*a+b-a mod 3
+	// pro. x=2*3+7-3 mod 3
+	// x=6+7-0
+	// x=6+7
+	// x=13
+	// fin. el balor de y= 13
+	Escribir "*** Ejercicio 1 ***"
+	Definir a,b,x Como Entero
+	a=3
+	b=7
+	x=0
+	Escribir "el balor a es:" a
+	Escribir "el balor b es:" b
+	Escribir "el ejercicio es x=2*a+b-a mod 3"
+	x=2*a+b-a mod 3
+	Escribir "El resultado es: ", x	
+FinFuncion
+Funcion ejer2
+	// ent.  a=10 y b=4 , calcule el valor de z=a*b+3 mod a+b
+	// pro. z=10*4+3 mod 10+4
+	// z=40+3+4
+	//z=47
+	// final. el valor es z=47
+	Escribir "*** Ejercicio 2 ***"
+	definir a,b,z Como Entero
+	a=10
+	b=4
+	Escribir "el valor a vale:", a
+	Escribir "el valor b vale:", b
+	Escribir "resolver z=a*b+3 mod a+b"
+	z=a*b+3 mod a+b
+	Escribir "La respuesta es: ", z
+FinFuncion
+Funcion ejer3
+	//ent.a=6 y b=2, determinar el valor de w=a-b+2*a mod b
+	// pro w=6-2+2*6 mod 2
+	// w=6-2+12 mod 2
+	// w=6-2+0
+	// W=4
+	// final El valor de W=4
+	Escribir "*** Ejercicio 3 ***"
+	definir a,b,w como enteros
+	a=6 
+	b=2
+	Escribir "el valor de a vale:", a
+	Escribir "el valor de b vale:", b
+	Escribir "Resolver w=a-b+2*a mod b"
+	w=a-b+2*a mod b
+	Escribir "El resultado es: ", w	
+FinFuncion
+Funcion ejer4
+	//ent. a=8 y b=5, encuentra el valor de v=2*b+a/2+4*b mod a
+	// pro v=2*5+8/2+4*5 mod 8
+	// v=10+8/2+4*5 mod 8
+	// v=10+4+20 mod 8
+	// v=10+4+4
+	// v=18
+	// final el valor de v=18
+	Escribir "*** Ejercicio 4 ***"
+	definir a,b,v Como Entero
+	a=8
+	b=5
+	Escribir "El valor de a es:",a
+	Escribir "El valor de b es:",b
+	Escribir "Resolber v=2*b+a/2+4*b mod a"
+	v=2*b+a/2+4*b mod a
+	Escribir "El resultado es: ", v
+FinFuncion
+Funcion ejer5
+	// ent. a=12 y b=9, calcule el valor de u=b-a+3*a mod b
+	// pro. u=9-12+3*12 mod 9
+	// u=9-12+36 mod 9
+	// u=9-12+0
+	// u=-3
+	// fin.el valor es u=3
+	Escribir "*** Ejercicio 5 ***"
+	definir a,b,u Como Entero
+	a=12
+	b=9
+	Escribir "El valor de a es: ", a
+	Escribir "El valor de b es: ", b
+	Escribir "Resolver el valor u=b-a+3*a mod b"
+	u=b-a+3*a mod b
+	Escribir "El resultado de u es:" u
+FinFuncion
+Funcion ejer6
+	// ent. si a=5 y b=3 , encuentre el valor de h=(a+b*2)+9>b*a*14%b
+	// pro. h=(5+3*2)+9>3*5*14%3
+	// h=11+9>3*5*14%3
+	// h=11+9>15*14%3
+	// h=11+9>210%3
+	// h=11+9>0
+	// h=20>0
+	// finalEl valor h es verdadero
+	Escribir "*** Ejercicio 6 ***"
+	Definir a,b Como Entero
+	a=5
+	b=3
+	Escribir "El valor de a es: ", a
+	Escribir "El valor de b es: ", b
+	Escribir "Resolver el valor h=(a+b*2)+9>b*a*14%b"
+	h=(a+b*2)+9>b*a*14%b
+	Escribir "El resultado de h es: ", h 
+FinFuncion
+Funcion ejer7
+	// ent.Resolber x=2*(4-10+8)/2*36*(1/2)
+	// pro.x=2*(4-10+8)/2*36*(1/2)
+	// x=2*2/2*36*(1/2)
+	// x=4/2*36*(1/2)
+	// x=2*36*(1/2)
+	// x=36
+	// fin el resultado es x=36
+	Escribir "*** Ejercicio 7 ***"
+	definir x Como Real
+	Escribir "resolber x=x=2*(4-10+8)/2*36*(1/2)"
+	x=2*(4-10+8)/2*36*(1/2)
+	Escribir "El resutado de x es: ", x	
+FinFuncion
+Funcion ejer8
+	// ent.Resolver X=260 / 12 + 54 % 3 - 85 % 7
+	// pro.x= 260 / 12 + 54 % 3 - 85 % 7
+	// x= 21.6+54%3-85%7
+	// x=21.6+54%3-85%7
+	// x= 21.6-1
+	// x= 20.6
+	// fin. El resultado de x=20.6
+	Escribir "*** Ejercicio 8 ***"
+	Definir x Como reales
+	Escribir "Resolver X=260 / 12 + 54 % 3 - 85 % 7"
+	X=260/12+54%3-85%7
+	Escribir "El resultado de x es: ", x
+FinFuncion
+Funcion ejer9
+	// ent. resolver el valor de x=(48 < 2 * 3) 0 (2 * 7 < 12)
+	// pro. x=(48 < 2 * 3) = (2 * 7 < 12)
+	// x= (48<6)=(14<12)
+	// x=(falso)=(falso)
+	// x=verdadero
+	// fin el valor de x= verdadero
+	Escribir "*** Ejercicio 9 ***"
+	definir x Como Logico
+	Escribir "Resolver x=(48<2*3) = (2 * 7 < 12)"
+	x=(48<2*3) = (2 * 7 < 12)
+	Escribir "el resulado de x es: ", x
+FinFuncion
+Funcion ejer10
+	//ent. Resolver x=((8>2)=(932<23)) y 4=2
+	// pro.x=((8>2)=(932<23)) y 4=2
+	// x=((verdadero)=(Falso))& 4=2
+	// x= falso & 4=2
+	// x=Falso
+	//fin el resultado de x es Falso
+	Escribir "*** Ejercicio 10 ***"
+	definir x Como Logico
+	Escribir "Resolver el valor x=((8>2)=(932<23)) & 4=2"
+	x=((8>2)=(932<23)) & 4=2
+	Escribir "El resulrado de x: ", x
+FinFuncion
+Funcion ejer11
+	// Suma de dos números: Escribe un programa que tome dos números como
+	// entrada y muestre su suma.
+	// ent. Num1=0.0, Num2=0.0,suma=0.0 (num1+num2)
+	// pro. ingresar num1,num2
+	// suma=num1+num2
+	// fin. la suma de num1 + num2 es, suma
+	definir num1,num2,suma Como reales
+	num1=0.0; num2=0.0; suma=0.0
+	Escribir "*** Ejercicio 11 ***"
+	Escribir "*** La suma de 2 numeros ***"
+	Escribir "Ingrese un numero"
+	Leer num1
+	Escribir "Ingrese un segundo numero"
+	leer num2
+	suma=num1+num2
+	Escribir "La suma de " num1 " + " num2 " el resultado es: ", suma
+FinFuncion
+funcion ejer12
+	// 12.Área de un triángulo: Pide al usuario que ingrese la base y
+	//la altura de un triángulo,luego calcula y muestra su área.
+	// ent. base=0.0 ,altura=0.0 , Area=0.0 (Base*altura/2)
+	// pro. ingrear base,altura
+	// área=(base*altura)/2
+	// fin. El Área del triangulo es: , área
+	Definir base,altura,área Como real
+	base=0.0; altura=0.0; área=0.0
+	Escribir "*** Ejercicio 12 ***"
+	Escribir "*** Área de un triangulo *** "
+	Escribir "Ingrese la base "
+	leer base
+	Escribir "Ingrese la altura "
+	Leer altura 
+	área=(base*altura)/2
+	Escribir "El Área del triamgulo es: ", área 
+FinFuncion
+funcion ejer13
+	// 13.Número par o impar: Solicita al usuario que ingrese un número 
+	// e indica si es par o impar
+	// ent. num1=0, par=0 (num1 mod 2 <= 0)
+	// pro. ingresar num1
+	// si num1 mod 2 <= 0 ; El numero es par 
+	// sino ; El numero es impar
+	// fin. depende el numero ingresado si es par o impar
+	Definir Num1 Como Entero
+	num1=0
+	Escribir "*** Ejercicio 13 ***"
+	Escribir "*** Numero par o impar ***"
+	Escribir "Ingrese un numero"
+	Leer num1
+	si num1 mod 2 <= 0 Entonces
+		Escribir "El numero es Par"
+	SiNo
+		Escribir "El numero es Imprar"
+	FinSi
+FinFuncion
+funcion ejer14
+	// 14. Calculadora simple: Crea una calculadora que realice operaciones 
+	// básicas como suma,resta,multiplicación y división, según la elección 
+	// del usuario.
+	// ent. Num1=0.0,Num2=0.0, suma=0.0(Num1+num2), resta=0.0(Num1-num2), 
+	// mult=0.0 (Num1*num2), div=0.0 (Num1/num2),x=0
+	// Pro. Ingresar Num1,Num2
+	// suma=num1+num2; resta=num1-num2 ; mult=num1*num2 ; div=num1/num2
+	// x=0
+	// entoces x hacer; 1 suma; 2 resta; 3 mult; 4 div
+	// Fin. la elecion de el usuaro es la respuesta 
+	Definir num1,num2,suma,resta,mult,div como real
+	num1=0.0;num2=0.0;suma=0.0;resta=0.0;multi=0.0;div=0.0;x=0
+	Escribir "*** Ejercicio 14 ***"
+	Escribir "*** Calculadora simple ***"
+	Escribir "Ingrese un numero"
+	Leer num1
+	Escribir "Ingrese un segundo numero "
+	leer num2
+	Escribir "operacion matematica 1 suma, 2 resta, 3 multiplicacion, 4 divicion" 
+	suma=num1+num2 
+	resta=num1-num2 
+	multi=num1*num2 
+	div=num1/num2
+	leer x
+	segun x Hacer
+		1:
+			Escribir "La suma de " num1 " + " num2 " El resultado es: " suma
+		2:
+			Escribir "La resta de " num1 " - " num2 " El resultado es: " resta
+		3:
+			Escribir "La multiplicacion de " num1 " * " num2 " El resultado es: " multi
+		4:
+			Escribir "La divicion de " num1 " / " num2 " El resultado es: " div
+		De Otro Modo:
+			Escribir "No Hay operacion matematica"
+	FinSegun	
+FinFuncion
+funcion ejer15
+	// 15.Tabla de multiplicar: Pide al usuario un número y muestra su tabla 
+	// de multiplicar del 1 al 10.
+	// ent. num1=0.0, multi=0.0 (Num1*1-10), x=1
+	// pro. ingresar num1
+	// multi=(num1*1)
+	// multi=(num1*2)
+	// multi=(num1*3)
+	// multi=(num1*4)
+	// multi=(num1*5)
+	// multi=(num1*6)
+	// multi=(num1*7)
+	// multi=(num1*8)
+	// multi=(num1*9)
+	// multi=(num1*10)
+	// fin. se multiplicara del 1 al 10 segun el numero ingresado y se mostrara
+	Definir num1, multi Como Real
+	num1 <- 0.0
+	multi <- 0.0
+	Escribir "*** Ejercicio 15 ***"
+	Escribir '*** Tabla de multiplicacion ***'
+	Escribir 'Ingrese un numero que quiera multiplicar del 1-10'
+	Leer num1
+	multi=num1*1
+	Escribir num1 " * " 1 " = ", multi
+	multi=num1*2
+	Escribir num1 " * " 2 " = ", multi
+	multi=num1*3
+	Escribir num1 " * " 3 " = ", multi
+	multi=num1*4
+	Escribir num1 " * " 4 " = ", multi
+	multi=num1*5
+	Escribir num1 " * " 5 " = ", multi
+	multi=num1*6
+	Escribir num1 " * " 6 " = ", multi
+	multi=num1*7
+	Escribir num1 " * " 7 " = ", multi
+	multi=num1*8
+	Escribir num1 " * " 8 " = ", multi
+	multi=num1*9
+	Escribir num1 " * " 9 " = ", multi
+	multi=num1*10
+	Escribir num1 " * " 10 " = ", multi
+FinFuncion
+funcion ejer16
+	// 16.Copiar palabra: Escribe un programa que lea dos palabras 
+	// y concatena en otra variable las dos palabras
+	// ent. palabra1=" ",palabra2=" ", frase=" " "(onetar(palabra1,palabra2))
+	// pro. ingresar palabra1,palabra2
+	// frase= Concatenar(Palabra1,palabra2)
+	// final. las palabras unidad son: , frase
+	Definir palabra1,palabra2,frase Como Caracter
+	palabra1=""; palabra2=""; frase=""
+	Escribir "*** Ejercicio 16 ***"
+	Escribir "*** Copiar Palabra ***"
+	Escribir "Ingrear la primera palabra"
+	Leer palabra1
+	Escribir "Ingresar la segunda palabra"
+	LEER palabra2
+	frase=Concatenar(palabra1 , palabra2)
+	Escribir "Las palabras unidas dan: ", frase
+FinFuncion
+Funcion ejer17
+	// 17.Mayor de tres números: Solicita tres números y determina cuál
+	// es el mayor de ellos
+	// ent. Num1=0.0, num2=0.0, num3=0.0, mayor=0.0 (num1,num2,num3)
+	// pro. ingresar num1,num2,num3
+	// si num1 > num2 ; 
+	// si num1 > num3; 
+	// num1 es el mayor 
+	// sino; num3 es el mayor
+	// sino si num2>num3 
+	// num2 es el mayo 
+	// sino num3 es el mallor
+	// fin. depende el numero ingresado del usuario sea el mayor
+	Definir num1, num2, num3, mayor1 Como Real
+	num1=0.0;num2=0.0;num3=0.0;mayor1=0.0
+	Escribir "*** Ejercicio 17 ***"
+	Escribir "*** Mator de tres números ***"
+	Escribir "Ingrese el primer número"
+	leer num1
+	Escribir "Ingrese el segundo número"
+	leer num2
+	Escribir "Ingrese el tercer número"
+	leer num3
+	si num1 > num2 Entonces
+		si num1 > num3 Entonces
+			Escribir num1 " Es el número mayor"
+		SiNo
+			Escribir num3 " Es el número mayor" 
+		FinSi
+	SiNo
+		si num2 > num3 Entonces
+			Escribir num2 " Es el número mayor"
+		sino 
+			Escribir num3 " Es el número mayor"
+		FinSi
+	FinSi	
+FinFuncion
+funcion ejer18
+	// 18.Edad mínima para votar: Pregunta la edad del usuario y verifica 
+	// si es elegible para votar (18 años o más).
+	// ent. edad=0, votar=18 (edad>= 18)
+	// pro. ingresar edad
+	// si edad>=votar ; tiene edad para votar
+	// sino ; no tiene edad para votar 
+	// fin. depende la edad ingresadad del usuario si es mayor o menor de edad 
+	// para votar
+	Definir edad,votar Como Entero
+	edad=0; votar=18
+	Escribir "*** Ejercicio 18 ***"
+	Escribir "*** Edad mínima para votar ***"
+	Escribir "Ingrese su edad"
+	Leer edad
+	si edad >= votar Entonces
+		Escribir "tiene la edad nesesarioa para votar: ", edad
+	sino 
+		Escribir "No tiene la edad nesesarioa para votar: ", edad 
+	FinSi
+FinFuncion
+funcion ejer19
+	// 19.Calculadora de BMI: Crea un programa que calcule el índice de masa
+	// corporal (BMI) a partir del peso y la altura del usuario, y luego 
+	// indique si está en una categoría de peso saludable.
+	// ent. altura=0.0 (metros), peso=0.0 (kilogramos) , BMI=0.0 masa/(altura*altura)
+	// pro. ingreasr altura, masa
+	// BMI= masa/(altura*altura)
+	// si BMI>=18.25 y BMI<=24.9 ; si estas en peso sadudable 
+	// sino ; no estas en paso sadudable
+	// fin. depende del peso y la altura que puso el usario medir el BMI 
+	Definir altura,masa,BMI Como real
+	altura=0.0; masa=0.0; BMI=0.0
+	Escribir "*** Ejercicio 19 ***"
+	Escribir "*** Calculadora de BMI ***"
+	Escribir "Ingrese su masa en kilogramos (KG)"
+	leer masa
+	Escribir "Ingrese su altura en metros"
+	leer altura
+	BMI=masa/(altura*altura)
+	si BMI>=18.25 y BMI<=24.9 Entonces
+		Escribir "SI esta en el BMI es sadudable", BMI
+	sino 
+		Escribir " NO esta en el BMI sadudable: ", BMI
+	FinSi
+FinFuncion
+funcion ejer20
+	// 20.Número positivo, negativo o cero: Pide al usuario que ingrese un
+	// número y muestra si es positivo, negativo o cero.
+	// ent. num1=0, cero=0 , positivo=0 (num1>=0), negativo=0 (num1<=0)
+	// pro. ingresar num1
+	// si num1>=cero
+	// si num1=positivo
+	// es positivo 
+	// sino es cero
+	// si no num1<negativo ; es negativo 
+	// fin. depende el numero ingresasdo de ser 0 o positivo o negativo 
+	Definir num1,cero1,positivo1,negativo1 Como Entero
+	num1=0;cero1=0;positivo1=0;negativo1=0
+	Escribir "*** Ejercicio 20 ***"
+	Escribir "*** Número Positivo *** "
+	Escribir "Ingrese un número"
+	leer num1
+	si num1>=cero1 Entonces
+		si num1=positivo1
+			Escribir num1 " Es cero"
+	    sino 
+			Escribir num1 " Es positivo"
+	    finsi
+	SiNo
+		si num1<negativo1
+			Escribir num1 " Es negativo"
+		FinSi
+	FinSi
+FinFuncion
+funcion ejer21
+	// 21.Año bisiesto: Solicita al usuario un año y determina si es un año 
+	// bisiesto o no. Un año bisiesto es divisible por 4, pero no por 100,
+	// a menos que también sea divisible por 400
+	// ent. año=0,bis=0
+	// pro ingresar año 
+	// 	si año mod 100 <> 0 ; si año mod 4 =0; es Bisiesto; sino no es bisiesto
+	// sino  si año mod 400 = 0; es bisesto; sino no es bisiesto 
+	// fin. depende el año que ingrese el usuario que sea bisiesto o no
+	Definir año como entero
+	año=0 
+	Escribir "*** Ejercicio 21 ***"
+	Escribir "*** Año bisiesto ***"
+	Escribir "Ingrese el año"
+	leer año
+	si año mod 100<>0 Entonces
+		si año mod 4 = 0 Entonces
+			Escribir año " El año es bisesto "
+		sino 
+			Escribir año " El año no es bisiesto "
+		FinSi
+	sino 
+		si año mod 400=0 Entonces
+			Escribir año "El año es bisiesto"
+		sino 
+			Escribir año " El año no es bisiesto"
+		FinSi
+	FinSi
+FinFuncion
+funcion ejer22
+	// 22.Signo zodiacal: Pide al usuario que ingrese su mes y día de
+	// nacimiento, luego determina su signo zodiacal. Puedes usar una serie
+	// de declaraciones if para comparar las fechas ingresadas con las 
+	// fechas límite de cada signo zodiacal.
+	// ent. mes=0,dia=0,x=1 
+	// pro. ingresar el dia, mes
+	// Si (mes==12 y (dia>=22 y dia <= 31)o(mes==1 y dia<=20)) x=1; capricornio
+	// si (mes=1 y (dia>=21 y dia <= 31) o (mes=2 y dia<=19)) x=1; acuario
+	// si (mes=2 y (dia>= 20 y dia<= 29) o (mes=3 y dia<=20)) x=1; picis
+	// si (mes=3 y (dia>=21 y dia<= 31) o (mes=4 y dia<=20))x=1; aries
+	// si (mes=4 y (dia>=21 y dia<=30) o (mes=5 y dia <= 20))x=1; tauro 
+	// si (mes=5 y (dia>=1 y dia<=31) o (mes=6 y dia<=21))x=1; gemesis
+	// si (mes=6 y(dia>=22 y dia<=30) o (mes=7 y dia <=22))x=1; cancer
+	// si (mes=7 y (dia>=23 y dia<=31) o (mes=8 y dia<=22))x=1; leo 
+	// si (mes=8 y (dia>23 y dia<=31) o (mes=9 y dia<=22))x=1; virgo
+	//si (mes=9 y (dia>=23 y dia<=31) o (dia=10 y dia<=22))x=1; libra 
+	// si (mes=10 y(dia>=23 y dia<= 31) o (mes=11 y dia<=22))x=1; escorpion
+	// si (mes=11 y(dia>=23 y dia <= 30) o (mes=12 y dia>=21))x=1; sagitario
+	// si x=1 tu signo zodiacal es: signo
+	// sino el signo no existe 
+	// final. mostar el signo zodiacal que tiene el usuario
+	Definir dia,mes,c como entero
+	Definir signo Como Caracter
+	dia=0; mes=0;c=0;signo=""
+	Escribir "*** Ejercicio 22 ***"
+	Escribir "*** Singno zodiacal ***"
+	Escribir 'ingrese su mes de nacimiento'
+	Leer mes
+	Escribir 'ingrese su dia de nacimiento'
+	Leer dia
+	Si (mes==12 y (dia>=22 y dia <= 31)o(mes==1 y dia<=20)) Entonces
+		signo= "capricornio"
+		c=1
+	FinSi
+	si (mes=1 y (dia>=21 y dia <= 31) o (mes=2 y dia<=19)) Entonces
+		signo= "Acuario"
+		c=1
+	FinSi
+	si (mes=2 y (dia>= 20 y dia<= 29) o (mes=3 y dia<=20)) Entonces
+		signo ="Picis"
+		c=1
+	FinSi
+	si (mes=3 y (dia>=21 y dia<= 31) o (mes=4 y dia<=20)) Entonces
+		signo="Aries"
+		c=1
+	FinSi
+	si (mes=4 y (dia>=21 y dia<=30) o (mes=5 y dia <= 20))Entonces
+		signo="tauro"
+		c=1
+	FinSi
+	si (mes=5 y (dia>=1 y dia<=31) o (mes=6 y dia<=21)) Entonces
+		signo="Gemenis"
+		c=1
+	FinSi
+	si (mes=6 y(dia>=22 y dia<=30) o (mes=7 y dia <=22)) Entonces
+		signo="cancer"
+		c=1
+	FinSi
+	si (mes=7 y (dia>=23 y dia<=31) o (mes=8 y dia<=22)) Entonces
+		signo="leo"
+		c=1
+	FinSi
+	si (mes=8 y (dia>23 y dia<=31) o (mes=9 y dia<=22)) Entonces
+		signo="virgo"
+		c=1
+	FinSi
+	si (mes=9 y (dia>=23 y dia<=31) o (dia=10 y dia<=22)) Entonces
+		signo="libra"
+		c=1
+	FinSi
+	si (mes=10 y(dia>=23 y dia<= 31) o (mes=11 y dia<=22)) Entonces
+		signo="escorpion"
+		c=1
+	FinSi
+	si (mes=11 y(dia>=23 y dia <= 30) o (mes=12 y dia>=21)) Entonces
+		signo="sagitario"
+		c=1
+	FinSi
+	si c=1 Entonces
+		Escribir "tu signo del zodiaco es: ", signo
+	SiNo
+		Escribir "el signo del zodiaco no existe"
+	FinSi
+FinFuncion
+funcion ejer23
+	// 23.Día del mes con respecto a la segunda quincena: Solicita al usuario 
+	// que ingrese un número de día del mes (por ejemplo, del 1 al 31) y 
+	// verifica si ese día pertenece a la primera quincena (días 1-15) 
+	// o a la segunda quincena (días 16-31).
+	// ent. dia=0, priqin=0(Dia=1-15), segquin=0(dia=16-31)
+	// pro ingrear dia
+	//si dia>=1 y dia<15; primera quinsena
+	// sino si dia>=16 y dia<=31 ; segunda quinsena
+	// fin. depende el dia que puso el usuario si es primea quisena o segunda quinsena
+	Definir dia Como Entero
+	dia=0
+	Escribir "*** Ejercicio 23 ***"
+	Escribir "*** Día del mes respecto a la segunda quinsena ***"
+	Escribir "Ingrese un dia del mes"
+	leer dia
+	Si (dia>=1 Y dia<=15) Entonces
+		Escribir 'Primera quinsena'
+	SiNo
+		Si (dia>=16 Y dia<=31) Entonces
+			Escribir 'segunda quinsena'
+		FinSi
+	FinSi
+FinFuncion
+funcion ejer24
+	// 24.Día de la semana: Pide al usuario que ingrese un número del 1 al 
+	// 7, donde 1 representa el domingo, 2 el lunes, 3 el martes, y
+	// así sucesivamente. Luego, utiliza una estructura switch para mostrar
+	// el nombre del día de la semana correspondiente al número ingresado.
+	//ent. dia=0,omingo=1,lunes=2,martes=3,miercoles=4,jueves=5,viernes=6,sabado=7
+	// pro. ingresar dia
+	// segun dia hacer 1 domingo;2 Lunes; 3 Martes;4 Miercoles; 5 Jueves; 6 Viernes; 7 Sabado
+	// de otro modo dia no existente
+	// fin. segun el usuario saldra el dia que eligio 
+	Definir dia Como Entero
+	Escribir "*** Ejercicio 24 ***"
+	Escribir "*** Dia de la semana ***"
+	Escribir "Ingrese un dia del 1 al 7"
+	Leer dia
+	Segun dia Hacer
+		1:
+			Escribir "El dia es Domingo"
+		2:
+			Escribir "El dia es Lunes"
+		3:
+			Escribir "El dia es Martes"
+		4:
+			Escribir "El dia es Miercoles"
+		5:
+			Escribir "El dia es Jueves"
+		6:
+			Escribir "El dia es Viernes"
+		7:
+			Escribir "El dia es Sabado"
+		De Otro Modo:
+			Escribir "El dia es no existe"
+	Fin Segun
+FinFuncion
+Funcion ejer25
+	// 25.Frases iguales: Escribir un programa que ingrese dos frases e 
+	// indique si son iguales
+	// ent.frase="", frase2=""
+	// pro. ingresar frase1,frase2
+	// si frase1=frase2 o frase2=frase1; las frases son igualñes
+	// sino no son iguales 
+	// fin. segun las frases ingresas sera iguales o no 
+	Definir frase1,frase2 Como Caracter
+	Escribir "*** Ejercicio 25 ***"
+	Escribir "*** Frases Iguales ***"
+	Escribir "Ingresar la primera frase"
+	Leer frase1
+	Escribir "Ingresar la segunda frase "
+	leer frase2
+	si frase1=frase2 o frase2=frase1 Entonces
+		Escribir "Las frases son iguales"
+	SiNo
+		Escribir "Las frases no son iguales "
+	FinSi
+FinFuncion
+Funcion ejer26
+	// 26.Calculadora de precio con descuento: Crea un programa que permita 
+	// a un usuario ingresar el precio de un artículo y un porcentaje de 
+	// descuento. El programa debe calcular y mostrar el precio final después 
+	// del descuento.
+	// ent. precio=0.0, porcdes=0.0,descuento=precio*(porcdes/100), total=0.0 (precio-descuento)
+	// pro. ingresar precio,porcdes
+	// descuento=precio*(porcdes) 
+	// total= precio-descuento
+	// el precio total es, precio
+	// el precio con descuento es, total
+	Definir precio, pordes, descuento,total como real
+	Escribir "*** Ejercicio 26 ***"
+	Escribir "*** calculadora de precio con descuento ***"
+	Escribir "Ingresar el precio del producto"
+	leer precio
+	Escribir "ingrese el descuento que tiene"
+	leer pordes
+	descuento=precio*(pordes/100)
+	total=precio-descuento
+	Escribir "El valor del precio es: ", precio
+	Escribir "El valor del precio con el descuento es: ", total
+FinFuncion
+funcion ejer27
+	// 27. Calculadora de factura con impuestos: Solicita al usuario que 
+	// ingrese el total de una factura y el porcentaje de impuestos aplicado. 
+	// Luego, calcula y muestra el monto total a pagar, incluyendo los 
+	// impuestos.
+	// ent. total=0.0, porimp=0.0,monto=0.0 (tota+imp), imp=0.0 (total*(porimp/100))
+	// pro. ingresar total, Proimp
+	// imp=total*(porimp/100)
+	// monto=total+Imp
+	// fin. el monto total a pagar es,monto 
+	Definir total,porimp,monto,imp Como Real
+	total=0.0;porimp=0.0;monto=0.0;imp=0.0
+	Escribir "*** Ejercicio 27 ***"
+	Escribir "*** Calculadora de factura con impuesto ***"
+	Escribir "Ingrese el toltal de una factura"
+	leer total
+	Escribir "El porcentaje del impuesto"
+	leer porimp
+	imp=total*(porimp/100)
+	monto= total+imp
+	Escribir "EL monto total es: ", monto
+FinFuncion
+funcion ejer28
+	// 28. Calculadora de sueldo con aumento: Pide al usuario que ingrese su 
+	// salario actual y el porcentaje de aumento que recibirá. Calcula y 
+	// muestra el nuevo salario después del aumento
+	// ent. salario=0.0 ,poraum=0.0, aumento=salario*(poraum/100) , total=0.0 (salario+aumento)
+	// pro ingresar salario,poraum
+	// aumento=salario*(poraum/100)
+	// total=salario+aumento
+	// fin. el aumento es: total
+	Definir salario,poraum,aumento,total Como Real
+	Escribir "*** Ejercicio 28 ***"
+	Escribir "*** Calculadora de sueldo con aumento ***"
+	Escribir "ingresar su salario"
+	leer salario
+	Escribir "ingrese el procentaje de aumento"
+	leer poraum
+	aumento=salario*(poraum/100)
+	total=salario+aumento
+	Escribir "el aumento total de su salario es: ", total
+FinFuncion
+funcion ejer29
+	// 29.Calculadora de compra con múltiples artículos: Permite al usuario
+	// ingresar el precio y la cantidad de varios artículos que está comprando.
+	// Calcula el total de la compra y aplica un descuento del 10% si el total
+	// es mayor a cierta cantidad (por ejemplo, $100).
+	// ent. precio=0.0, cantidad=0.0 ,pordes=0.10 , total=0.0 (precio*cantidad), descuento=0.0 (total-x), x=0.0 (total*pordes)
+	// Pro. ingresar precio,cantidad
+	// total=precio*cantidad
+	// x=total*pordes
+	// decuento=total-x
+	// si total>=40 ; se plicara un descuento de 10%, descuento
+	// sino no hay descuento
+	// fin. depende el total del precio si es mayor 40 descuento del 10% sino n0
+	Definir precio,pordes,total,x,descuento Como Real
+	Definir cantidad Como Entero
+	precio=0.0;cantidad=0;pordes=10;total=0.0;x=0.0;descuento=0.0
+	Escribir "*** Ejercicio 29 ***"
+	Escribir "*** calculadora de compra con multiples articulos *** "
+	Escribir "ingresar el precio del producto"
+	leer precio
+	Escribir "ingresar la cantidad del producto"
+	leer cantidad
+	total=cantidad*precio
+	x=total*(pordes/100)
+	decuento=total-x
+	si total>=40 Entonces
+		Escribir total " Optiene un descuento del 10%: " decuento
+	SiNo
+		Escribir total " No hay descuento"
+	FinSi
+FinFuncion
+Funcion ejer30_31_32
+	// 30.Calculadora de impuestos sobre el salario: Solicita al usuario que 
+	// ingrese su salario anual y calcula el impuesto sobre la renta según 
+	// las siguientes tasas:
+	// Hasta De $10,001 a $20,000:
+	// 31.$10,000: 5% 
+	// 32.Más de $20,000: 15%
+	// ent. salario=0.0, impuesto=0.0 (salario>20.000) y (salario<10.000) porimp=5%,15%
+	// pro ingresar salario
+	//x=salario*(15/100)
+	//impuesto1=salario+x
+	//F=salario*(5/100)
+	//impuesto2=salario+f
+	// si salario>=20.000 "Tiene una tasa de impuesto de 15% ", c
+	// sino ; "Tiene una atasa de impuesto del 5 ", g
+	// fin depende el salario aunual del usario si es 5% de impuesto o 15% de impuesto 
+	Definir salario,impuesto1,impuesto2,x,f Como Real
+	salario=0.0;impuesto=0.0;x=0.0;c=0.0;f=0.0;g=0.0
+	Escribir "*** Ejercicio 30 31 32 ***"
+	Escribir "*** Calculadora de impuesto sobre el salario *** "
+	Escribir "Ingrese su salario anual"
+	leer salario
+	x=salario*(15/100)
+	impuesto1=salario+x
+	F=salario*(5/100)
+	impuesto2=salario+f
+	si salario>=20.000 Entonces
+		Escribir "Tiene una tasa de impuesto del 15%: ", impuesto1
+	SiNo
+		Escribir "Tiene una tasa de impuesto del 5%: ", impuesto2
+	FinSi
+FinFuncion
+Funcion ejer33
+	// 33.Descuento por antigüedad en la empresa: Pregunta al usuario cuántos 
+	// años ha estado trabajando en una empresa y calcula su bono de
+	// antigüedad. Si ha trabajado más de 5 años, otorga un bono del 5% sobre
+	// su salario
+	// ent. años=0, trabajo=0 (años>=5), bono=5%,
+	// pro. ingresar año 
+	// si año>=5 ; optiene un bono de 5%
+	// sino ; no optiene bono 
+	// fin. depende el año que ingrese el usuaro si optiene un bono 5% o no 
+	Definir año Como Entero
+	año=0
+	Escribir "*** Ejercicio 33 ***"
+	Escribir "*** decuento por antiguedad en la empresa ***"
+	Escribir "Cuantos año ha tabajado en esta empresa"
+	leer año
+	si año>=5 Entonces
+		Escribir "Optiene un bono del 5% "
+	SiNo
+		Escribir "NO optubo bono "
+	FinSi
+FinFuncion
+funcion ejer34
+	// 34.Calculadora de envío con tarifas diferentes: Crea un programa que 
+	// permita al usuario ingresar la distancia de envío y calcule el costo
+	// del envío. Si la distancia es inferior a 50 km, el costo es de $10. 
+	// Si la distancia es de 50 km o más, el costo es de $20.
+	//ent. distancia=0, coste1=10 (distancia<50),coste2=20 (distancia>=50) 
+	//pro ingrese distancia
+	// si distancia<50 ; el de coste de embio es: , coste1
+	// sino el coste de embio es de: , coste2
+	// final. depende la distancia si es mayor a 50 el coste seria de 20$ sino 10%
+	Definir distancia,coste1,coste2 Como Entero
+	distancia=0;coste1=10;coste2=20
+	Escribir "*** Ejercicio 34 ***"
+	Escribir "*** calculadora de envío con tarifas diferentes"
+	Escribir "Ingrese la distancia de envio "
+	leer distancia
+	si distancia<50 Entonces
+		Escribir "El coste de envío es de: " coste1 "$ "
+	SiNo
+		Escribir "El coste de envío es de: " coste2 "$ "
+	FinSi
+FinFuncion
+funcion ejer35
+	// 35.Calculadora de descuento por lealtad del cliente: Pide al usuario
+	// que ingrese el total de sus compras mensuales durante un año. Si el
+	// total es superior a $500, aplica un descuento del 10% en la próxima 
+	// compra
+	// ent. total=0.0 descuento=10% (total>500)
+	// por. infgresar total 
+	// si total>500 ; optiene un descuento de 10% en la sigiente compra 
+	// sino no optiene descuento
+	// fin. depende el total de las compras hechas por el usuari si se gana el 10 % de descuento en la sigiente compra o no 
+	Definir total,descuento Como Real
+	total=0.0;descuento=10
+	Escribir "*** Ejercicio 35 ***"
+	Escribir "*** Calculadora de descuento de lealtad del cliente"
+	Escribir "Ingrese el total de compras mensuales en un año"
+	leer total
+	si total>500 Entonces
+		Escribir "Optiene un descuento de: " descuento "% en la procima compra"
+	sino 
+		Escribir "No optiene un descuento "
+	FinSi
+FinFuncion
+funcion  ejer36_37_38_39
+	// 36. Calculadora de descuento por volumen de compra: Permite al usuario
+	// ingresar la cantidad de unidades de un producto que va a comprar y 
+	// el precio unitario. Aplica descuentos por volumen de compra según las 
+	// siguientes reglas:
+	// 37. 10-50 unidades: 5% de descuento
+	// 38. 51-100 unidades: 10% de descuento
+	// 39. Más de 100 unidades: 15% de descuento
+	// ent.cantidad=0, descuento1=5% (cantitad>10 y cantidad<50), descuento2=10% (cantida>51 y cantidad<100)
+	// descuento3=15% (cantidad>100) 
+	// pro ingresar cantidad
+	// si cantidad >=10 y cantidad<=50 ; Optiene un descuento de 5%
+	// sino si cantidad>=51 y candtidad <= 100 ; optiene descuento del 10 %
+	// sino optiene descuento del 15%
+	// fin. depende la cantidad de unidad del usuario para saber cuanto 
+	// optiene descuento del 5%;10%;15% o no 
+	definir cantidad, descuento1,descuento2,descuento3 Como Entero
+	cantidad=0;descuento1=5;descuento2=10;descuento3=15
+	Escribir "*** Ejercicio 36 37 38 39 ***"
+	Escribir "*** Calculadora de descuento por volumen de compra *** "
+	Escribir "Ingrese la cantidad de unidades"
+	leer cantidad
+	si cantidad>=10 y cantidad<=50 Entonces
+		Escribir "optiene un descuento del: ", descuento1 "%"
+	sino 
+		si cantidad>=51 y cantidad<100
+			Escribir "optiene un descuento del: " descuento2 "%"
+		sino
+			si cantidad>100 Entonces
+				Escribir "optiene un descuento del: " descuento3 "%"
+			sino 
+				Escribir "No optiene descuento"
+			FinSi
+		FinSi
+		
+	FinSi
+FinFuncion
+funcion ejer40
+    //40. Calculadora de costo de servicio: Pregunta al usuario cuántas 
+	// horas de servicio necesita y calcula el costo total. Si las horas 
+	// son más de 10, aplica un descuento del 20%
+	// ent. horas=0.0, descuento=20% (horas>10)
+	// pro. ingresrar horas
+	// si horar>10 ; optiene un descuento del 20%
+	// sino no optiene descuento 
+	// final. depende la cantidad de horas que ingrese el usuario si optiene 20% o no 
+	Definir horas,descuento Como Real
+	horas=0.0;descuento=20
+	Escribir "*** Ejercicio 40 ***"
+	Escribir "*** Calculo de costo de servicio ***"
+	Escribir "Ingrese la cantidad de horas"
+	leer horas
+	si horas>=10 Entonces
+		Escribir "Optiene un descuento del: " descuento "%"
+	sino 
+		Escribir "No optiene descuento"
+	FinSi
+FinFuncion
+Funcion ejer41
+	// Suma de números pares: Utiliza un bucle for para calcular la suma de
+	// los números pares del 1 al 50.
+	// ent. num=0 ,x=1 
+	// pro num=num+1
+	// Repetir
+	// num ;num<-num+2; x<-x+1
+	//hasta que x=26
+	// fin el numero se sumara hasta el 50
+	Definir num Como entero
+	num=2;x=1
+	Escribir "*** Ejercicio 41 ***"
+	Escribir "*** Suma de números pares ***"
+	Escribir "Se sumara el numero: " num " hasta el 50"
+	Repetir
+		Escribir num
+		num<-num+2
+		x<-x+1
+	Hasta Que x=26
+FinFuncion
+Funcion ejer42
+	// Tabla de multiplicar: Utiliza un bucle for para imprimir la tabla de 
+	// multiplicar de un número ingresado por el usuario del 1 al 12
+	//ent. num1=0,x=1
+	//por. ingresar num1
+	//repetir num1*x  x<-x+1 hsta que x=12
+	// fin. se mostara la multiplicacion del 1 al 12
+	Definir num1,x Como Entero
+	num1=0;x=1;f=1
+	Escribir "*** Ejercicio 42 ***"
+	Escribir "*** Tabla de multiplicar *** "
+	Escribir "Ingrese un numero "
+	leer num1
+	Escribir "el numero se multiplicar del 1 al 12"
+	Repetir
+		Escribir num1 "*" x "=", num1*x
+		x<-x+1 
+	Hasta Que x=13  
+FinFuncion
+Funcion ejer43
+	// 43.Contador de vocales: Utiliza un bucle while para contar el número 
+	// de vocales en una palabra ingresada por el usuario.
+	// ent.palabra="" 
+	// pro ingresar palabra 
+	// n=longitud(Palabra)
+	// x=1;c=0
+	// mientras x <= n hacer 
+	//segun subcadena(Palabra,x,x) Hacer
+	// "a" o "A":
+	// c=c+1
+	//"e" o "E":
+	//c=c+1
+	//"i" o "I":
+	//c=c+1
+	// "o" o "O":
+	// c=c+1
+	// "u" o "U":
+	//c=c+1
+	// FinSegun
+	// x=x+1
+	//finmitras
+	// fin la frase palabra tiene C Vocales
+	definir palabra Como Caracter
+	Escribir "*** Ejercicio 43 ***"
+	Escribir "*** Contador de vocales *** "
+	Escribir "Ingrese una palabra"
+	leer palabra
+	n= Longitud(palabra)
+	x=1
+	c=0
+	mientras x <= n Hacer
+		segun Subcadena(palabra,x,x) Hacer
+			"a" o "A":
+				c=c+1
+			"e" o "E":
+				c=c+1
+			"i" o "I":
+				c=c+1
+			"o" o "O":
+				c=c+1
+			"u" o "U":
+				c=c+1
+		FinSegun
+		x= x + 1
+		
+	FinMientras
+	Escribir "La frase ", palabra ," Tiene ", c, " vocales "
+FinFuncion
+Funcion ejer44
+	// 44.Contador de digitos: Utiliza un bucle for para contar el numero 
+	// de dígitos en una palabra ingresada por el usuario.
+	// ent. palabra 
+	// pro ingresar palabra
+	//n <- Longitud(palabra)
+	// x <- 1
+	// Repetir
+	//x <- x+1
+	// Hasta Que x=n
+	// fin  la cantidad de digitos son , x
+	Definir palabra Como Cadena
+	Escribir "*** Ejercicio 44 ***"
+	Escribir "*** Contado de digitos *** "
+	Escribir 'ingrese una parlabra'
+	Leer palabra
+	n <- Longitud(palabra)
+	x <- 1
+	Repetir
+		x <- x+1
+	Hasta Que x=n
+	Escribir "la cantidad de digitos son ", x
+FinFuncion
+Funcion ejer45
+	// 45.Adivina el número: Genera un número aleatorio y pide al usuario 
+	// que adivine el número. Utiliza un bucle while para repetir la 
+	// solicitud hasta que adivine correctamente.
+	// ent. num=0,adibinar=0 (azar(10)+1)
+	// pro adibinar<- azar(10)+1
+	// x=90
+	// Mientras x>0  Hacer
+	// Ingrese un numero del 1 al 10 
+	// num1
+	//si num2 == num1 Entonces
+	//"Adivinaste el numero ", num2
+	//x=0
+	//sino 
+	//x=x-1
+	//si x==0 Entonces
+	//"Has fallado "
+	// el numero secreto era:, aleatorio
+	//fin.
+	Definir num1, alea, x Como Entero
+	Escribir "*** Ejercicio 45 ***"
+	Escribir "*** Adivina el numero *** "
+	alea <- azar(9)+1
+	x=90
+	Mientras x>0  Hacer
+		Escribir "Ingrese un numero del 1 al 10 "
+		leer num1
+		si alea == num1 Entonces
+			Escribir "Adivinaste el numero ", num2
+			x=0
+		sino 
+			x=x-1
+			si x==0 Entonces
+				Escribir "Has fallado "
+				Escribir "el numero secreto era: ", alea
+			FinSi
+		FinSi
+	FinMientras
+FinFuncion
+funcion ejer46
+	// 46.Contador de Alfabeto: Utiliza un bucle for para contar el número de 
+	// letras del alfabeto(a..z) en una palabra ingresada por el usuario
+	// ent.palabra="",n=longitud(palabra),x=1,c=0
+	// pro. ingrear la palabra 
+	// n= Longitud(palabra)
+	// x=1
+	// c=0
+	// mientras x<= n segun subcadena(palabra,x,x) Hacer
+	// a o A c=c+1 ...... z o Z c=c+1
+	// fin de segun; x=+1
+	// fin La frase , palabra , Tiene , c, palabras en alfabetodefinir palabra Como Caracter
+	Escribir "*** Ejercicio 46 ***"
+	Escribir "*** Contador de alfabeto ***"
+	Escribir "Ingrese una palabra"
+		leer palabra
+		n= Longitud(palabra)
+		x=1
+		c=0
+		mientras x <= n Hacer
+			segun Subcadena(palabra,x,x) Hacer
+				"a" o "A":
+					c=c+1
+				"b" o "B":
+					c=c+1
+				"c" o "C":
+					c=c+1
+				"d" o "D":
+					c=c+1
+				"e" o "E":
+					c=c+1
+				"f" o "F":
+					c=c+1
+				"g" o "G":
+					c=c+1
+				"h" o "H":
+					c=c+1
+				"i" o "I":
+					c=c+1
+				"j" o "J":
+					c=c+1
+				"k" o "L":
+					c=c+1
+				"l" o "I":
+					c=c+1
+				"m" o "M":
+					c=c+1
+				"n" o "N":
+					c=c+1
+				"ñ" o "Ñ":
+					c=c+1
+				"o" o "O":
+					c=c+1
+				"p" o "P":
+					c=c+1
+				"q" o "Q":
+					c=c+1
+				"r" o "R":
+					c=c+1
+				"s" o "S":
+					c=c+1
+				"t" o "T":
+					c=c+1
+				"u" o "U":
+					c=c+1
+				"v" o "V":
+					c=c+1
+				"w" o "W":
+					c=c+1
+				"x" o "X":
+					c=c+1
+				"y" o "Y":
+					c=c+1
+				"z" o "Z":
+					c=c+1
+			FinSegun
+			x= x + 1
+		FinMientras
+		Escribir "La frase ", palabra ," Tiene ", c, " palabras en alfabeto "
+FinFuncion
+Funcion ejer47
+	// 47. Suma de números impares: Utiliza un bucle while para calcular la 
+	// suma de los números impares del 1 al 100.
+	// ent.num=1,impar=0 (num1+2)
+	// pro. num1 x=1
+	// mientras x<50 ; num1 + 2 = num1+2
+	// num1<-num1+2
+	// x<-x+1
+	// fin. se mostara la suma de numeros imparas hasta el 100
+	definir num1 Como Entero
+	num1=1
+	Escribir "*** Ejercicio 47 ***"
+	Escribir "*** Suma de números impares *** "
+	Escribir num1 " El numero se sumara"
+	x=1
+	Escribir "El numero se sumara imprar mente hasta el 100"
+	Mientras x<50 Hacer
+		Escribir num1 " + " 2 " = " num1+2
+		num1<-num1+2
+		x=x+1
+	Fin Mientras
+FinFuncion
+funcion ejer48
+	// 48. Contador de caracteres: Escribir un programa que lea una palabra y
+	// presenta cuantos caracteres hay en dicha palabra
+	// ent. palabra=""
+	// pro. ingresar palabra
+	// n=Longitud(palabra)
+	// x=1
+	//c=0
+	// mientas x <= n
+	// segun subcadena(palabra,x,x); "!"o"!" c=c+1 ....... "{}" 0 "{}"; c=c+1
+	// fin se mostara el total de caracteres
+	Definir palabra Como Caracter
+	Escribir "*** Ejercicio 48 ***"
+	Escribir "*** Contador de caracteres ***"
+	Escribir "Ingrese una frase"
+	leer palabra
+	n=Longitud(palabra)
+	x=1
+	c=0
+	Mientras x <= n Hacer
+		segun subcadena(palabra,x,x) Hacer
+			"!" o "!":
+				c=c+1
+			"´´" o "´´":
+				c=c+1
+			"#" o "#":
+				c=c+1
+			"$" o "$" :
+				c=c+1
+			"%" o "%" :
+				c=c+1
+			"&" o "&" :
+				c=c+1
+			"´" o "´" :
+				c=c+1
+			"()" o "()" :
+				c=c+1
+			"*" o "*" :
+				c=c+1
+			"+" o "+" :
+				c=c+1
+			"," o "," :
+				c=c+1
+			"-" o "-" :
+				c=c+1
+			"." o "." :
+				c=c+1
+			"/" o "/" :
+				c=c+1
+			"0" o "0" :
+				c=c+1
+			"1" o "1" :
+				c=c+1
+			"2" o "2" :
+				c=c+1
+			"3" o "3" :
+				c=c+1
+			"4" o "4" :
+				c=c+1
+			"5" o "5" :
+				c=c+1
+			"6" o "6" :
+				c=c+1
+			"7" o "7" :
+				c=c+1
+			"9" o "8" :
+				c=c+1
+			"9" o "9" :
+				c=c+1
+			":" o ":" :
+				c=c+1
+			";" o ";" :
+				c=c+1
+			"<" o "<" :
+				c=c+1
+			"=" o "=" :
+				c=c+1
+			">" o ">" :
+				c=c+1
+			"?" o "?" :
+				c=c+1
+			"@" o "@" :
+				c=c+1
+			"a" o "A" :
+				c=c+1
+			"b" o "b" :
+				c=c+1
+			"c" o "C" :
+				c=c+1
+			"d" o "d":
+				c=c+1
+			"e" o "e":
+				c=c+1
+			"f" o "f":
+				c=c+1
+			"g" o "g":
+				c=c+1
+			"h" o "H":
+				c=c+1
+			"i" o "I":
+				c=c+1
+			"j" o "J":
+				c=c+1
+			"k" o "K":
+				c=c+1
+			"l" o "L":
+				c=c+1
+			"m" o "M":
+				c=c+1
+			"n" o "N":
+				c=c+1
+			"o" o "O":
+				c=c+1
+			"p" o "P":
+				c=c+1
+			"q" o "Q":
+				c=c+1
+			"r" o "R":
+				c=c+1
+			"s" o "S":
+				c=c+1
+			"t" o "":
+				c=c+1
+			"u" o "":
+				c=c+1
+			"v" o "":
+				c=c+1
+			"w" o "":
+				c=c+1
+			"x" o "":
+				c=c+1
+			"y" o "":
+				c=c+1
+			"z" o "":
+				c=c+1
+			"[]" o "[]":
+				c=c+1
+			"_" o "_":
+				c=c+1
+			"{}" o "{}":
+				c=c+1
+		FinSegun
+		x=x+1
+	Fin Mientras
+	Escribir "La frase ", palabra ," Tiene ", c, " Caracteres"
+FinFuncion
+funcion ejer49
+	//49. Suma de números: Pide al usuario que ingrese números enteros positivos uno
+	// por uno y utiliza un bucle while para calcular la suma de estos números. El ciclo
+	// debe terminar cuando el usuario ingrese un número negativo.
+	// ent.num1=0,num2=0,x=1
+	// Pro. mientas x<50
+	// ingresar num1,num2; suma=num1+num2
+	// si num1<0 o num2<0 ; x=49  si num1<0, el numero num1 es negativo; si num2<0 elñ numero num2 es negativo
+	// sino si  num1>=0 o num2>=0 ; suma ingrese otros numeros hasta que ingrese un numero negativo
+	//x=x+1; FinMientras
+	// fin depende la cantidad de nuemros que ingrese el usuario si son posistivos se sumara hasta que ingrese un numero negativo 
+	Definir num1,num2 Como Entero
+	num1=0;num2=0
+	Escribir "*** Ejercicio 49 ***"
+	Escribir "*** Suma de numeros ***"
+	x=1
+	Mientras x<50 Hacer
+		Escribir "Ingrese un numero"
+		leer num1
+		Escribir "Ingrese un segundo numero"
+		leer num2
+		suma=num1+num2
+		si num1<0 o num2<0 Entonces
+			x=49
+			si num1<0 Entonces
+				Escribir "El numero " num1 " Es negativo"
+			finsi
+			si num2<0
+				Escribir "El numero " num2 " Es negativo"
+			FinSi
+		sino 
+			si num1>0 o num2>0 Entonces
+				Escribir suma " ingrese numero hasta que los numero ingresado sean negativo"
+			FinSi
+	    FinSi
+		x=x+1
+	Fin Mientras
+FinFuncion
+funcion ejer50
+	// 50. Cuenta regresiva: Pide al usuario que ingrese un número entero 
+	// positivo y utiliza un bucle while para mostrar una cuenta regresiva
+	// desde ese número hasta 1.
+	// ent. num1=0
+	// pro. ingresar num1 
+	// x=num1
+	// mientas x>1 ; si x>1 ; num1 - 1 = num1-1
+	// num1=num1-1
+	//x=x-1
+	//fin se mostara del numero ingresado hasta el 1
+	Definir num1 Como Entero
+	Escribir "*** Ejercicio 50 ***"
+	Escribir "*** Cuenta regresiva ***"
+	Escribir "Ingrese un numero "
+	leer num1 
+	x=num1
+	Mientras x>1 Hacer
+		si x>1 Entonces
+			Escribir num1 "-" 1 "= " num1-1
+			num1<-num1-1
+			x<-x-1
+		FinSi
+	Fin Mientras
+FinFuncion
+funcion ejer51
+	// Suma de elementos: Crea un arreglo de números enteros y calcula la 
+	// suma de todos sus elementos.
+	// num1=0,num2=0,num3=0,num4=0, suma=0 (num1+num2+num3+num4)
+	//Para i<-1 Hasta 5 Con Paso 1 Hacer
+//	Escribir "Ingrese numeros"
+//	leer num1,num2,num3,num4
+//	suma=num1+num2+num3+num4
+//	si suma<=100 Entonces
+//		"Los numeros sumados son: ", suma
+//		i=5
+//	sino 
+//		"Los numeros sumados son: ", suma
+//		i=5
+	Escribir "*** Ejercicio 51 ***"
+	Escribir "*** Suma de elementos ***"
+	Para i<-1 Hasta 5 Con Paso 1 Hacer
+		Escribir "Ingrese numeros"
+		leer num1,num2,num3,num4
+		suma=num1+num2+num3+num4
+		si suma<=100 Entonces
+			Escribir "Los numeros sumados son: ", suma
+			i=5
+		sino 
+			Escribir "Los numeros sumados son: ", suma
+			i=5
+		FinSi
+	Fin Para
+FinFuncion
+funcion ejer52
+	// Promedio de calificaciones: Crea un arreglo de calificaciones 
+	//(números decimales) y calcula el promedio de las calificaciones.
+	// ent.num1=0.0,num2=0.0,num3=0.0,promedio=0.0 (num1+num2+num3)/3
+	// pro: para i=1 hasta 3 Con Paso 1 Hacer
+	// "ingrese las calificaciones"
+	// leer num1,num2,num3
+	// promedio=(num1+num2+num3)/3
+	// si promedio>0 Entonces
+	// "El promedio es de: ", promedio
+	// i=3
+	// fin. se mostrara el promedio de las notas
+	Escribir "*** Ejercicio 52 ***"
+	Escribir "*** Promedio de calificaciones *** "
+	para i=1 hasta 3 Con Paso 1 Hacer
+		Escribir "ingrese las calificaciones"
+		leer num1,num2,num3
+		promedio=(num1+num2+num3)/3
+		si promedio>0 Entonces
+			Escribir "El promedio es de: " promedio
+			i=3
+		FinSi
+	FinPara
+FinFuncion
+Funcion ejer53
+	// 53Mayor y menor valor: Encuentra el valor máximo y mínimo en un arreglo 
+	// de números enteros.
+	// ente mayor=0 menor=0 
+	// Escribir "*** Mayor y menor valor ***"
+	//Dimension A[10]
+	//PARA i <- 1 hasta 10 Hacer
+	//A[i]<- Azar(100)+1
+	//mayor <-A[1]
+	//menor <-A[1]
+	//para x <-1 hasta 10 Hacer
+//	si A[x]>mayor Entonces
+//		mayor<-A[X]
+//	si A[x]<menor Entonces
+//		menor<-A[x]
+	//Fin
+	// El mayor valor es: ", mayor
+	// "El menor valor es: ", menor
+	Escribir "*** Ejercicio 53 ***"
+	Escribir "*** Mayor y menor valor ***"
+	Dimension A[10]
+	PARA i <- 1 hasta 10 Hacer
+		A[i]<- Azar(100)+1
+	FinPara
+	mayor <-A[1]
+	menor <-A[1]
+	para x <-1 hasta 10 Hacer
+		si A[x]>mayor Entonces
+			mayor<-A[X]
+		FinSi
+		si A[x]<menor Entonces
+			menor<-A[x]
+		FinSi
+	FinPara
+	Escribir "El mayor valor es: ", mayor
+	Escribir "El menor valor es: ", menor
+FinFuncion
+funcion ejer54
+	// 54 Buscar un elemento: Pide al usuario que ingrese un número y verifica si ese número está
+	//presente en un arreglo dado.
+	//x=101
+	//Para i<-1 Hasta 10 Con Paso 1 Hacer
+//	"Ingrese un numero"
+//	leer num1
+//	si num1<=x Entonces
+//		 "El numero ingresado es precente en otro ejercicio"
+//		i=i+9
+//	sino 
+//		 "El numero ingresado no esta precente en otro ejercicio"
+//		i=i+9
+//	Fin 
+	Escribir "*** Ejercicio 54 ***"
+	Escribir "*** Buscar un elemto *** "
+	x=101
+	Para i<-1 Hasta 10 Con Paso 1 Hacer
+		Escribir "Ingrese un numero"
+		leer num1
+		si num1<=x Entonces
+			Escribir "El numero ingresado es precente en otro ejercicio"
+			i=i+9
+		sino 
+			Escribir "El numero ingresado no esta precente en otro ejercicio"
+			i=i+9
+		FinSi
+	Fin Para
+FinFuncion
+Funcion ejer55
+	// 55 Contar elementos pares: Cuenta cuántos números pares hay en un arreglo de números
+	// enteros.
+	//Dimension A[10]
+	//PARA i <- 1 hasta 10 Hacer
+//	A[i]<-100
+	//par<-A[1]
+	//F=1
+	//para x <-1 hasta 10 Hacer
+//	Mientras F<52 Hacer
+//		par 
+//		PAR=PAR-2
+//		F=F+1
+	//fin "La cantidad de numeros pares son: " f
+	Escribir "*** Ejercicio 55 ***"
+	Escribir "*** Contar elemtentos pares ***"
+	Dimension A[10]
+	PARA i <- 1 hasta 10 Hacer
+		A[i]<-100
+	FinPara
+	par<-A[1]
+	F=1
+	para x <-1 hasta 10 Hacer
+		Mientras F<52 Hacer
+			Escribir par 
+			PAR=PAR-2
+			F=F+1
+		Fin Mientras
+	FinPara
+	Escribir "La cantidad de numeros pares son: " f
+FinFuncion
+funcion ejer56
+	//56. Inversión de un arreglo: Invierte el orden de los elementos en un arreglo. Por ejemplo,
+//	[1, 2, 3] se convierte en [3, 2, 1].
+	// ent n=0,b=0 a="",x=""
+	// pro."Ingrese Una Serie de numeros "
+	//leer n
+	//Para i<-1 Hasta 10 Con Paso 1 Hacer
+//	a=ConvertirATexto(n)
+//	b=Longitud(a)
+//	x=""
+//	Mientras b>0 Hacer
+//		x=x+Subcadena(a,b,b)
+//		b=b-1
+//		i=i+9
+	//fin."El numero " n "Invertido es: " ConvertirANumero(x)
+	definir n,b Como Entero
+	definir a,x Como Caracter
+	Escribir "*** Ejercicio 56 ***"
+	Escribir "*** Inversion de un arreglo ***"
+	Escribir "Ingrese Una Serie de numeros "
+	leer n
+	Para i<-1 Hasta 10 Con Paso 1 Hacer
+		a=ConvertirATexto(n)
+		b=Longitud(a)
+		x=""
+		Mientras b>0 Hacer
+			x=x+Subcadena(a,b,b)
+			b=b-1
+			i=i+9
+		FinMientras
+	Fin Para
+	Escribir "El numero " n "Invertido es: " ConvertirANumero(x)
+FinFuncion
+funcion ejer57
+	// 57. Buscar el índice: Pide al usuario que ingrese un valor y encuentra el índice de ese valor
+	//en un arreglo. Si el valor aparece más de una vez, muestra todos los índices.
+	//ent. num1=0
+	// pro "ingrese un valor del 1 al 10"
+	//Leer num1
+	//Para i<-1 Hasta 10 Con Paso 1 Hacer
+//	Segun num1 Hacer
+//	0:
+//		 "Bacio"
+	//         i<-i+9
+//	1:
+//			"Inicio"
+//			i<-i+9
+//	2:
+//		 "Ideas"
+//			i<-i+9
+//	3:
+//		"Progreso"
+//			i<-i+9
+//	4:
+//		 "Imaginacion"
+//			i<-i+9
+//	5:
+//		"Volundtad"
+//			i<-i+9
+//	6:
+//		"Sueños"
+//			i<-i+9
+//	7: 
+//		"Valores"
+//			i<-i+9
+//	8: 
+//		"Metodos"
+//			i<-i+9
+//	9:
+//		"Metas"
+//			i<-i+9
+//	10:
+//			"Fin "
+//			i<-i+9
+//		De Otro Modo:
+//			si num1<=10 Entonces
+//				Escribir "ingrese otro valor"
+//				leer num1
+	// fin. se mostara el indice segun el numero ingresado 
+	Definir num1 Como Entero
+	Escribir "*** Ejercicio 57 ***"
+	Escribir "*** Buscar el indice *** "
+	Escribir "ingrese un valor del 1 al 10"
+	Leer num1
+	Para i<-1 Hasta 10 Con Paso 1 Hacer
+		Segun num1 Hacer
+			0:
+				Escribir "Bacio"
+				i<-i+9
+			1:
+				Escribir "Inicio"
+				i<-i+9
+			2:
+				Escribir "Ideas"
+				i<-i+9
+			3:
+				Escribir "Progreso"
+				i<-i+9
+			4:
+				Escribir "Imaginacion"
+				i<-i+9
+			5:
+				Escribir "Volundtad"
+				i<-i+9
+			6:
+				Escribir "Sueños"
+				i<-i+9
+			7: 
+				Escribir "Valores"
+				i<-i+9
+			8: 
+				Escribir "Metodos"
+				i<-i+9
+			9:
+				Escribir "Metas"
+				i<-i+9
+			10:
+				Escribir "Fin "
+				i<-i+9
+			De Otro Modo:
+				si num1<=10 Entonces
+					Escribir "ingrese otro valor"
+					leer num1
+				FinSi
+		Fin Segun
+	Fin Para	
+FinFuncion
+funcion ejer58
+	// 58. Función sin parámetros para saludar.
+	// ent. Funcion 
+	// pro funcion Text(1)
+	// " Hola que tal ";
+	//Algoritmo 
+//	text(1)
+	//Fin se mostara el saludo .
+	Escribir "*** Ejercicio 58 ***"
+	Escribir "*** Saludar ***"
+Escribir " Hola que tal ";
+FinFuncion
+Funcion ejer59
+	// 59. Función con parámetros para sumar dos números
+	// ent num1=0,num2=0,suma=0 
+	// pro "Ingrese un numero"
+	//leer num1
+	//"Ingrese el segundo numero"
+	//leer num2 
+	//suma=num1+num2
+	// "La suma de " num1 "+" num2 "= " suma
+	//FinFuncion
+	//Algoritmo 
+//	ejer59_Suma(1)
+	//Fin. se mostara la suma de los 2 numeros
+	Escribir "*** Ejercicio 59 ***"
+	Escribir "*** Suma de dos numeros *** "
+	Escribir "Ingrese un numero"
+	leer num1
+	Escribir "Ingrese el segundo numero"
+	leer num2 
+	suma=num1+num2
+	Escribir "La suma de " num1 "+" num2 "= " suma
+FinFuncion
+funcion ejer60
+	// 60. Función con return para multiplicar dos números.
+	// pro Funcion ejer60_multiplicacion_de_dos_numeos(1)
+	//"Ingrese un numero"
+	//leer num1
+	//"ingrese un segundo numero"
+	//leer num2
+	//mult=num1*num2
+	//"La muntiplicacion de: " num1 "*" num2 "= " mult
+	//FinFuncion
+	//Algoritmo 
+//	ejer60_multiplicacion_de_dos_numeos(1)
+	//Fin se mostrara la multiplicacion de los 2 numeros 
+	Escribir "*** Ejercicio 60 ***"
+	Escribir "*** multiplicacion de dos numeros ***"
+	Escribir "Ingrese un numero"
+	leer num1
+	Escribir "ingrese un segundo numero"
+	leer num2
+	mult=num1*num2
+	Escribir "La muntiplicacion de: " num1 "*" num2 "= " mult
+FinFuncion
+funcion ejer61
+	// 61. Función sin return para determinar si un número es par o impar.
+	// ent. num1=0,multi=0
+	// pro "Ingrese un numero"
+	//leer num1
+	//si num1 mod 2=0 Entonces
+//	"El numero es par"
+	//sino 
+//	"El numero es impar"
+	//FinSi
+	//FinFuncion
+	//Algoritmo EJER61
+//	EJER61_funcion_sin_return(1) 
+	//Fin se mostara el numero si es par o impar
+	Escribir "*** Ejercicio 61 ***"
+	Escribir "*** Par o impar ***"
+	Escribir "Ingrese un numero"
+	leer num1
+	si num1 mod 2=0 Entonces
+		Escribir "El numero es par"
+	sino 
+		Escribir "El numero es impar"
+	FinSi
+FinFuncion
+funcion ejer62
+	// 62. Función con parámetros y return para calcular el área de un rectángulo.
+	// ent.base=0.0,altura=0.0, area=0.0 (base*altura)/2
+	//Funcion EJR62_Funcion_con_parametro(1)
+	//"Ingrese la base "
+	//leer base
+	//"Ingrese la altura "
+	//Leer altura 
+	//área=(base*altura)/2
+	//"El Área del triamgulo es: ", área 
+	//FinFuncion
+	//Algoritmo EJR62
+//	EJR62_Funcion_con_PARAMETRO(1)
+	//FinA se mostara el area del triangulo	
+	Escribir "*** Ejercicio 62 ***"
+	Escribir "*** el area de un triangulo *** "
+	Escribir "Ingrese la base "
+	leer base
+	Escribir "Ingrese la altura "
+	Leer altura 
+	área=(base*altura)/2
+	Escribir "El Área del triamgulo es: ", área 
+FinFuncion
+funcion ejer63
+	// 63. Función sin parámetros para imprimir tu nombre.
+	// ent num=""
+	//pro Funcion EJR63_funcion_sin_parametros(1)
+	//"Ingresa tu nombre"
+	//Leer nom
+	//"Ahora se va imprimir"
+	//Imprimir nom
+	//Algoritmo EJR63
+//	EJR63_funcion_sin_parametros(1)
+	//Fin se mostrara el nombre imprimido
+	Escribir "*** Ejercicio 63 ***"
+	Escribir "*** Imprimir Nombre ***"	
+	Escribir "Ingresa tu nombre"
+	Leer nom
+	Escribir "Ahora se va imprimir"
+	Imprimir nom
+FinFuncion
+Funcion ejer64
+	// 64. Función con return para convertir grados Celsius a Fahrenhei
+	//ent. c=0.0,f=0.0 (c*1.8)+32
+	//"Ingrese los grados centigrados"
+	//leer c
+	//f=(c*1.8)+32
+	// "La combercion de grados cetigrados a fahernheit es: " , f
+	//FinFuncion
+	//Algoritmo EJR64
+//	EJR64_funcion_con_retun(2)
+	//Fin se mostrarala combercion en grados cetigrados a fahernheit
+	Escribir "*** Ejercicio 64 ***"
+	Escribir "*** comvertir grados celsius a fahrenheit ***"
+	Escribir "Ingrese los grados centigrados"
+	leer c
+	f=(c*1.8)+32
+	Escribir "La combercion de grados cetigrados a fahernheit es: " , f
+FinFuncion
+funcion ejer65
+	// 65. Función con parámetros para contar un carácter en una frase.
+	// ent. frace="",c=""
+	// Funcion EJR65_Funcion_parametros(1)
+	// "Ingrese una frase"
+	//leer frase
+	//c=Longitud(frase) 
+	// "El total de caracteres de la frase " frase " son " c
+	//Algoritmo EJR65
+//	EJR65_Funcion_parametros(1)
+	//Fin se mostara el total de caracteres de la frase
+	Escribir "*** Ejercicio 65 ***"
+	Escribir "*** Caracter de una frase ***"
+	Escribir "Ingrese una frase"
+	leer frase
+	c=Longitud(frase)
+	Escribir "El total de caracteres de la frase " c
+FinFuncion
+Funcion ejer66
+	// 66. Función sin return para imprimir números del 1 al 10.
+	// ent i=0
+	// pro Funcion EJR66_Función_sin_return(4)
+	//para i<-1 hasta 10 Con Paso 1 Hacer
+//	Escribir i
+	//Algoritmo EJR66
+//	EJR66_Función_sin_return(4)
+	//Fin se mostrara del 1 al 10
+	Escribir "*** Ejercicio 66 ***"
+	Escribir "*** Numeros del 1 al 10 *** "
+	para i<-1 hasta 10 Con Paso 1 Hacer
+		Escribir i
+	FinPara
+FinFuncion
+funcion ejer67
+	// 67. Función con parámetros y return para sumar una lista de números.
+	// ent.i=1
+	//pro. Funcion EJR67_FUNCION_con_parametros_y_Retur(1)
+//	para i<-1 hasta 20 Con Paso 1 Hacer
+//		si i>0 Entonces
+//			Escribir i "+" i "=" i+i
+	//Algoritmo EJR67
+//	EJR67_FUNCION_con_parametros_y_Retur(1)
+	//Fin. se mostara la suma de la lista de suma 
+	Escribir "*** Ejercicio 67 ***"
+	Escribir "*** Suma de una lisata de numeros *** "
+	para i<-1 hasta 20 Con Paso 1 Hacer
+		si i>0 Entonces
+			Escribir i "+" i "=" i+i
+		FinSi
+	FinPara
+FinFuncion
+Algoritmo Tarea1
+	 ejer1
+	 ejer2
+     ejer3
+	 ejer4
+	 ejer5
+	 ejer6
+	 ejer7
+	 ejer8
+	 ejer9
+	 ejer10
+	 ejer11
+	 ejer12
+	 ejer13
+	 ejer14
+	 ejer15
+	 ejer16
+	 ejer17
+	 ejer18
+	 ejer19
+	 ejer20
+	 ejer21
+	 ejer22
+	 ejer23
+	 ejer24
+	 ejer25
+	 ejer26
+	 ejer27
+	 ejer28
+	 ejer29
+	 ejer30_31_32
+	 ejer33
+	 ejer34
+	 ejer35
+	 ejer36_37_38_39
+	 ejer40
+	 ejer41
+	 ejer42
+	 ejer43
+	 ejer44
+	 ejer45
+	 ejer46
+	 ejer47
+	 ejer48
+	 ejer49
+	 ejer50
+	 ejer51
+	 ejer52
+	 ejer53
+	 ejer54
+	 ejer55
+	 ejer56
+	 ejer57
+	 ejer58
+	 ejer59
+	 ejer60
+	 ejer61
+	 ejer62
+	 ejer63
+	 ejer64
+	 ejer65
+	 ejer66
+	 ejer67
+FinAlgoritmo
