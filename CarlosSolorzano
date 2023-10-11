@@ -158,8 +158,7 @@ Funcion ejer10
 	Escribir "El resulrado de x: ", x
 FinFuncion
 Funcion ejer11
-	// Suma de dos números: Escribe un programa que tome dos números como
-	// entrada y muestre su suma.
+	// 11.suma de dos números: Escribe un programa que tome dos números como entrada y muestre su suma.
 	// ent. Num1=0.0, Num2=0.0,suma=0.0 (num1+num2)
 	// pro. ingresar num1,num2
 	// suma=num1+num2
@@ -176,8 +175,7 @@ Funcion ejer11
 	Escribir "La suma de " num1 " + " num2 " el resultado es: ", suma
 FinFuncion
 funcion ejer12
-	// 12.Área de un triángulo: Pide al usuario que ingrese la base y
-	//la altura de un triángulo,luego calcula y muestra su área.
+	// 12.Área de un triángulo: Pide al usuario que ingrese la base y la altura de un triángulo,luego calcula y muestra su área.
 	// ent. base=0.0 ,altura=0.0 , Area=0.0 (Base*altura/2)
 	// pro. ingrear base,altura
 	// área=(base*altura)/2
@@ -194,8 +192,7 @@ funcion ejer12
 	Escribir "El Área del triamgulo es: ", área 
 FinFuncion
 funcion ejer13
-	// 13.Número par o impar: Solicita al usuario que ingrese un número 
-	// e indica si es par o impar
+	// 13.Número par o impar: Solicita al usuario que ingrese un número e indica si es par o impar
 	// ent. num1=0, par=0 (num1 mod 2 <= 0)
 	// pro. ingresar num1
 	// si num1 mod 2 <= 0 ; El numero es par 
@@ -214,8 +211,7 @@ funcion ejer13
 	FinSi
 FinFuncion
 funcion ejer14
-	// 14. Calculadora simple: Crea una calculadora que realice operaciones 
-	// básicas como suma,resta,multiplicación y división, según la elección 
+	// 14. Calculadora simple: Crea una calculadora que realice operaciones básicas como suma,resta,multiplicación y división, según la elección 
 	// del usuario.
 	// ent. Num1=0.0,Num2=0.0, suma=0.0(Num1+num2), resta=0.0(Num1-num2), 
 	// mult=0.0 (Num1*num2), div=0.0 (Num1/num2),x=0
@@ -252,8 +248,7 @@ funcion ejer14
 	FinSegun	
 FinFuncion
 funcion ejer15
-	// 15.Tabla de multiplicar: Pide al usuario un número y muestra su tabla 
-	// de multiplicar del 1 al 10.
+	// 15.Tabla de multiplicar: Pide al usuario un número y muestra su tabla de multiplicar del 1 al 10.
 	// ent. num1=0.0, multi=0.0 (Num1*1-10), x=1
 	// pro. ingresar num1
 	// multi=(num1*1)
@@ -296,8 +291,7 @@ funcion ejer15
 	Escribir num1 " * " 10 " = ", multi
 FinFuncion
 funcion ejer16
-	// 16.Copiar palabra: Escribe un programa que lea dos palabras 
-	// y concatena en otra variable las dos palabras
+	// 16.Copiar palabra: Escribe un programa que lea dos palabras  y concatena en otra variable las dos palabras
 	// ent. palabra1=" ",palabra2=" ", frase=" " "(onetar(palabra1,palabra2))
 	// pro. ingresar palabra1,palabra2
 	// frase= Concatenar(Palabra1,palabra2)
@@ -314,8 +308,7 @@ funcion ejer16
 	Escribir "Las palabras unidas dan: ", frase
 FinFuncion
 Funcion ejer17
-	// 17.Mayor de tres números: Solicita tres números y determina cuál
-	// es el mayor de ellos
+	// 17.Mayor de tres números: Solicita tres números y determina cuál es el mayor de ellos
 	// ent. Num1=0.0, num2=0.0, num3=0.0, mayor=0.0 (num1,num2,num3)
 	// pro. ingresar num1,num2,num3
 	// si num1 > num2 ; 
@@ -351,8 +344,7 @@ Funcion ejer17
 	FinSi	
 FinFuncion
 funcion ejer18
-	// 18.Edad mínima para votar: Pregunta la edad del usuario y verifica 
-	// si es elegible para votar (18 años o más).
+	// 18.Edad mínima para votar: Pregunta la edad del usuario y verifica si es elegible para votar (18 años o más).
 	// ent. edad=0, votar=18 (edad>= 18)
 	// pro. ingresar edad
 	// si edad>=votar ; tiene edad para votar
@@ -372,8 +364,7 @@ funcion ejer18
 	FinSi
 FinFuncion
 funcion ejer19
-	// 19.Calculadora de BMI: Crea un programa que calcule el índice de masa
-	// corporal (BMI) a partir del peso y la altura del usuario, y luego 
+	// 19.Calculadora de BMI: Crea un programa que calcule el índice de masa corporal (BMI) a partir del peso y la altura del usuario, y luego 
 	// indique si está en una categoría de peso saludable.
 	// ent. altura=0.0 (metros), peso=0.0 (kilogramos) , BMI=0.0 masa/(altura*altura)
 	// pro. ingreasr altura, masa
@@ -397,8 +388,7 @@ funcion ejer19
 	FinSi
 FinFuncion
 funcion ejer20
-	// 20.Número positivo, negativo o cero: Pide al usuario que ingrese un
-	// número y muestra si es positivo, negativo o cero.
+	// 20.Número positivo, negativo o cero: Pide al usuario que ingrese un número y muestra si es positivo, negativo o cero.
 	// ent. num1=0, cero=0 , positivo=0 (num1>=0), negativo=0 (num1<=0)
 	// pro. ingresar num1
 	// si num1>=cero
@@ -426,8 +416,7 @@ funcion ejer20
 	FinSi
 FinFuncion
 funcion ejer21
-	// 21.Año bisiesto: Solicita al usuario un año y determina si es un año 
-	// bisiesto o no. Un año bisiesto es divisible por 4, pero no por 100,
+	// 21.Año bisiesto: Solicita al usuario un año y determina si es un año bisiesto o no. Un año bisiesto es divisible por 4, pero no por 100,
 	// a menos que también sea divisible por 400
 	// ent. año=0,bis=0
 	// pro ingresar año 
@@ -455,10 +444,8 @@ funcion ejer21
 	FinSi
 FinFuncion
 funcion ejer22
-	// 22.Signo zodiacal: Pide al usuario que ingrese su mes y día de
-	// nacimiento, luego determina su signo zodiacal. Puedes usar una serie
-	// de declaraciones if para comparar las fechas ingresadas con las 
-	// fechas límite de cada signo zodiacal.
+	// 22.Signo zodiacal: Pide al usuario que ingrese su mes y día de nacimiento, luego determina su signo zodiacal. Puedes usar una serie
+	// de declaraciones if para comparar las fechas ingresadas con las fechas límite de cada signo zodiacal.
 	// ent. mes=0,dia=0,x=1 
 	// pro. ingresar el dia, mes
 	// Si (mes==12 y (dia>=22 y dia <= 31)o(mes==1 y dia<=20)) x=1; capricornio
@@ -540,10 +527,8 @@ funcion ejer22
 	FinSi
 FinFuncion
 funcion ejer23
-	// 23.Día del mes con respecto a la segunda quincena: Solicita al usuario 
-	// que ingrese un número de día del mes (por ejemplo, del 1 al 31) y 
-	// verifica si ese día pertenece a la primera quincena (días 1-15) 
-	// o a la segunda quincena (días 16-31).
+	// 23.Día del mes con respecto a la segunda quincena: Solicita al usuario que ingrese un número de día del mes (por ejemplo, del 1 al 31) y 
+	// verifica si ese día pertenece a la primera quincena (días 1-15) o a la segunda quincena (días 16-31).
 	// ent. dia=0, priqin=0(Dia=1-15), segquin=0(dia=16-31)
 	// pro ingrear dia
 	//si dia>=1 y dia<15; primera quinsena
@@ -564,10 +549,8 @@ funcion ejer23
 	FinSi
 FinFuncion
 funcion ejer24
-	// 24.Día de la semana: Pide al usuario que ingrese un número del 1 al 
-	// 7, donde 1 representa el domingo, 2 el lunes, 3 el martes, y
-	// así sucesivamente. Luego, utiliza una estructura switch para mostrar
-	// el nombre del día de la semana correspondiente al número ingresado.
+	// 24.Día de la semana: Pide al usuario que ingrese un número del 1 al 7, donde 1 representa el domingo, 2 el lunes, 3 el martes, y así 
+	// sucesivamente. Luego, utiliza una estructura switch para mostrar el nombre del día de la semana correspondiente al número ingresado.
 	//ent. dia=0,omingo=1,lunes=2,martes=3,miercoles=4,jueves=5,viernes=6,sabado=7
 	// pro. ingresar dia
 	// segun dia hacer 1 domingo;2 Lunes; 3 Martes;4 Miercoles; 5 Jueves; 6 Viernes; 7 Sabado
@@ -598,8 +581,7 @@ funcion ejer24
 	Fin Segun
 FinFuncion
 Funcion ejer25
-	// 25.Frases iguales: Escribir un programa que ingrese dos frases e 
-	// indique si son iguales
+	// 25.Frases iguales: Escribir un programa que ingrese dos frases e indique si son iguales
 	// ent.frase="", frase2=""
 	// pro. ingresar frase1,frase2
 	// si frase1=frase2 o frase2=frase1; las frases son igualñes
@@ -619,10 +601,8 @@ Funcion ejer25
 	FinSi
 FinFuncion
 Funcion ejer26
-	// 26.Calculadora de precio con descuento: Crea un programa que permita 
-	// a un usuario ingresar el precio de un artículo y un porcentaje de 
-	// descuento. El programa debe calcular y mostrar el precio final después 
-	// del descuento.
+	// 26.Calculadora de precio con descuento: Crea un programa que permita a un usuario ingresar el precio de un artículo y un porcentaje de 
+	// descuento. El programa debe calcular y mostrar el precio final después del descuento.
 	// ent. precio=0.0, porcdes=0.0,descuento=precio*(porcdes/100), total=0.0 (precio-descuento)
 	// pro. ingresar precio,porcdes
 	// descuento=precio*(porcdes) 
@@ -1385,7 +1365,7 @@ funcion ejer52
 	FinPara
 FinFuncion
 Funcion ejer53
-	// 53Mayor y menor valor: Encuentra el valor máximo y mínimo en un arreglo 
+	// 53.Mayor y menor valor: Encuentra el valor máximo y mínimo en un arreglo 
 	// de números enteros.
 	// ente mayor=0 menor=0 
 	// Escribir "*** Mayor y menor valor ***"
@@ -1406,7 +1386,7 @@ Funcion ejer53
 	Escribir "*** Mayor y menor valor ***"
 	Dimension A[10]
 	PARA i <- 1 hasta 10 Hacer
-		A[i]<- Azar(100)+1
+		A[i]<- Azar(10)+1
 	FinPara
 	mayor <-A[1]
 	menor <-A[1]
@@ -1422,30 +1402,37 @@ Funcion ejer53
 	Escribir "El menor valor es: ", menor
 FinFuncion
 funcion ejer54
-	// 54 Buscar un elemento: Pide al usuario que ingrese un número y verifica si ese número está
-	//presente en un arreglo dado.
-	//x=101
-	//Para i<-1 Hasta 10 Con Paso 1 Hacer
-//	"Ingrese un numero"
-//	leer num1
-//	si num1<=x Entonces
-//		 "El numero ingresado es precente en otro ejercicio"
-//		i=i+9
-//	sino 
-//		 "El numero ingresado no esta precente en otro ejercicio"
-//		i=i+9
-//	Fin 
+	// 54 Buscar un elemento: Pide al usuario que ingrese un número y verifica si ese número está presente en un arreglo dado.
+	// ent, ingresar los balores
+	// ingresar otro arregro de otro ejercicio 
+	// saldra el balor ingresado si esta en el otro ejercicio
 	Escribir "*** Ejercicio 54 ***"
 	Escribir "*** Buscar un elemto *** "
-	x=101
+	Definir A,x,num1 Como Entero
+	Dimension A[10]
+	PARA i <- 1 hasta 10 Hacer
+		A[i]<- Azar(10)+1
+		i=i+9
+	FinPara
+	mayor <-A[1]
+	menor <-A[1]
+	para x <-1 hasta 10 Hacer
+		si A[x]>mayor Entonces
+			mayor<-A[X]
+		FinSi
+		si A[x]<menor Entonces
+			menor<-A[x]
+		FinSi
+		x=x+9
+	FinPara
 	Para i<-1 Hasta 10 Con Paso 1 Hacer
 		Escribir "Ingrese un numero"
 		leer num1
-		si num1<=x Entonces
-			Escribir "El numero ingresado es precente en otro ejercicio"
+		si num1>=mayor o num1<=menor Entonces
+			Escribir "El numero ingrensado es mayor en otro ejercicio: " mayor
 			i=i+9
 		sino 
-			Escribir "El numero ingresado no esta precente en otro ejercicio"
+			Escribir "El numero ingresado es menor en otro ejercicio: " menor
 			i=i+9
 		FinSi
 	Fin Para
@@ -1468,12 +1455,12 @@ Funcion ejer55
 	Escribir "*** Contar elemtentos pares ***"
 	Dimension A[10]
 	PARA i <- 1 hasta 10 Hacer
-		A[i]<-100
+		A[i]<-10
 	FinPara
 	par<-A[1]
-	F=1
+	F=0
 	para x <-1 hasta 10 Hacer
-		Mientras F<52 Hacer
+		Mientras F<6 Hacer
 			Escribir par 
 			PAR=PAR-2
 			F=F+1
@@ -1514,100 +1501,34 @@ funcion ejer56
 	Fin Para
 	Escribir "El numero " n "Invertido es: " ConvertirANumero(x)
 FinFuncion
-funcion ejer57
-	// 57. Buscar el índice: Pide al usuario que ingrese un valor y encuentra el índice de ese valor
-	//en un arreglo. Si el valor aparece más de una vez, muestra todos los índices.
-	//ent. num1=0
-	// pro "ingrese un valor del 1 al 10"
-	//Leer num1
-	//Para i<-1 Hasta 10 Con Paso 1 Hacer
-//	Segun num1 Hacer
-//	0:
-//		 "Bacio"
-	//         i<-i+9
-//	1:
-//			"Inicio"
-//			i<-i+9
-//	2:
-//		 "Ideas"
-//			i<-i+9
-//	3:
-//		"Progreso"
-//			i<-i+9
-//	4:
-//		 "Imaginacion"
-//			i<-i+9
-//	5:
-//		"Volundtad"
-//			i<-i+9
-//	6:
-//		"Sueños"
-//			i<-i+9
-//	7: 
-//		"Valores"
-//			i<-i+9
-//	8: 
-//		"Metodos"
-//			i<-i+9
-//	9:
-//		"Metas"
-//			i<-i+9
-//	10:
-//			"Fin "
-//			i<-i+9
-//		De Otro Modo:
-//			si num1<=10 Entonces
-//				Escribir "ingrese otro valor"
-//				leer num1
-	// fin. se mostara el indice segun el numero ingresado 
-	Definir num1 Como Entero
-	Escribir "*** Ejercicio 57 ***"
-	Escribir "*** Buscar el indice *** "
-	Escribir "ingrese un valor del 1 al 10"
-	Leer num1
-	Para i<-1 Hasta 10 Con Paso 1 Hacer
-		Segun num1 Hacer
-			0:
-				Escribir "Bacio"
-				i<-i+9
-			1:
-				Escribir "Inicio"
-				i<-i+9
-			2:
-				Escribir "Ideas"
-				i<-i+9
-			3:
-				Escribir "Progreso"
-				i<-i+9
-			4:
-				Escribir "Imaginacion"
-				i<-i+9
-			5:
-				Escribir "Volundtad"
-				i<-i+9
-			6:
-				Escribir "Sueños"
-				i<-i+9
-			7: 
-				Escribir "Valores"
-				i<-i+9
-			8: 
-				Escribir "Metodos"
-				i<-i+9
-			9:
-				Escribir "Metas"
-				i<-i+9
-			10:
-				Escribir "Fin "
-				i<-i+9
-			De Otro Modo:
-				si num1<=10 Entonces
-					Escribir "ingrese otro valor"
-					leer num1
-				FinSi
-		Fin Segun
-	Fin Para	
-FinFuncion
+// 57. Buscar el índice: Pide al usuario que ingrese un valor y encuentra el índice de ese valor
+//en un arreglo. Si el valor aparece más de una vez, muestra todos los índices.
+//ent. los valores 
+//pro. in gresar el numero de valores 
+//funcion ingresar(valores,n)
+//	para pos<-1 Hasta n Con Paso 1 Hacer
+//		Escribir "ingrese numero [" pos "]"
+//		leer valores[pos]
+//	FinPara
+//FinFuncion
+//Funcion presentar(valores,n)
+//	para pos=1 hasta n Con Paso 1 Hacer
+//		escribir "Numero[" valores[pos] "] "
+//	FinParA
+//FinFuncion
+//Algoritmo Ejr57
+//	Escribir "*** Ejercicio 57 ***"
+//	Escribir "*** Buscar el indice *** "
+//	Escribir "ingrese un numero del 1 al 10"
+//	Leer n
+//	Dimension valores[10]
+//	si n>=10 Entonces
+//		Escribir "El valor ingresado debe ser menor o igual a 10"
+//	sino
+//		ingresar(valores,n)
+//		presentar(valores,n)
+//	FinSi
+//FinAlgoritmo
 funcion ejer58
 	// 58. Función sin parámetros para saludar.
 	// ent. Funcion 
@@ -1850,7 +1771,7 @@ Algoritmo Tarea1
 	 ejer54
 	 ejer55
 	 ejer56
-	 ejer57
+//	 ejer57
 	 ejer58
 	 ejer59
 	 ejer60
