@@ -1015,70 +1015,70 @@ funcion ejer46
 	Escribir "*** Ejercicio 46 ***"
 	Escribir "*** Contador de alfabeto ***"
 	Escribir "Ingrese una palabra"
-		leer palabra
-		n= Longitud(palabra)
-		x=1
-		c=0
-		mientras x <= n Hacer
-			segun Subcadena(palabra,x,x) Hacer
-				"a" o "A":
-					c=c+1
-				"b" o "B":
-					c=c+1
-				"c" o "C":
-					c=c+1
-				"d" o "D":
-					c=c+1
-				"e" o "E":
-					c=c+1
-				"f" o "F":
-					c=c+1
-				"g" o "G":
-					c=c+1
-				"h" o "H":
-					c=c+1
-				"i" o "I":
-					c=c+1
-				"j" o "J":
-					c=c+1
-				"k" o "L":
-					c=c+1
-				"l" o "I":
-					c=c+1
-				"m" o "M":
-					c=c+1
-				"n" o "N":
-					c=c+1
-				"ñ" o "Ñ":
-					c=c+1
-				"o" o "O":
-					c=c+1
-				"p" o "P":
-					c=c+1
-				"q" o "Q":
-					c=c+1
-				"r" o "R":
-					c=c+1
-				"s" o "S":
-					c=c+1
-				"t" o "T":
-					c=c+1
-				"u" o "U":
-					c=c+1
-				"v" o "V":
-					c=c+1
-				"w" o "W":
-					c=c+1
-				"x" o "X":
-					c=c+1
-				"y" o "Y":
-					c=c+1
-				"z" o "Z":
-					c=c+1
-			FinSegun
-			x= x + 1
-		FinMientras
-		Escribir "La frase ", palabra ," Tiene ", c, " palabras en alfabeto "
+	leer palabra
+	n= Longitud(palabra)
+	x=1
+	c=0
+	mientras x <= n Hacer
+		segun Subcadena(palabra,x,x) Hacer
+			"a" o "A":
+				c=c+1
+			"b" o "B":
+				c=c+1
+			"c" o "C":
+				c=c+1
+			"d" o "D":
+				c=c+1
+			"e" o "E":
+				c=c+1
+			"f" o "F":
+				c=c+1
+			"g" o "G":
+				c=c+1
+			"h" o "H":
+				c=c+1
+			"i" o "I":
+				c=c+1
+			"j" o "J":
+				c=c+1
+			"k" o "L":
+				c=c+1
+			"l" o "I":
+				c=c+1
+			"m" o "M":
+				c=c+1
+			"n" o "N":
+				c=c+1
+			"ñ" o "Ñ":
+				c=c+1
+			"o" o "O":
+				c=c+1
+			"p" o "P":
+				c=c+1
+			"q" o "Q":
+				c=c+1
+			"r" o "R":
+				c=c+1
+			"s" o "S":
+				c=c+1
+			"t" o "T":
+				c=c+1
+			"u" o "U":
+				c=c+1
+			"v" o "V":
+				c=c+1
+			"w" o "W":
+				c=c+1
+			"x" o "X":
+				c=c+1
+			"y" o "Y":
+				c=c+1
+			"z" o "Z":
+				c=c+1
+		FinSegun
+		x= x + 1
+	FinMientras
+	Escribir "La frase ", palabra ," Tiene ", c, " palabras en alfabeto "
 FinFuncion
 Funcion ejer47
 	// 47. Suma de números impares: Utiliza un bucle while para calcular la 
@@ -1505,30 +1505,30 @@ FinFuncion
 //en un arreglo. Si el valor aparece más de una vez, muestra todos los índices.
 //ent. los valores 
 //pro. in gresar el numero de valores 
-//funcion ingresar(valores,n)
-//	para pos<-1 Hasta n Con Paso 1 Hacer
-//		Escribir "ingrese numero [" pos "]"
-//		leer valores[pos]
-//	FinPara
-//FinFuncion
-//Funcion presentar(valores,n)
-//	para pos=1 hasta n Con Paso 1 Hacer
-//		escribir "Numero[" valores[pos] "] "
-//	FinParA
-//FinFuncion
-//Algoritmo Ejr57
-//	Escribir "*** Ejercicio 57 ***"
-//	Escribir "*** Buscar el indice *** "
-//	Escribir "ingrese un numero del 1 al 10"
-//	Leer n
-//	Dimension valores[10]
-//	si n>=10 Entonces
-//		Escribir "El valor ingresado debe ser menor o igual a 10"
-//	sino
-//		ingresar(valores,n)
-//		presentar(valores,n)
-//	FinSi
-//FinAlgoritmo
+funcion ingresar(valores,n)
+	para pos<-1 Hasta n Con Paso 1 Hacer
+		Escribir "ingrese numero [" pos "]"
+		leer valores[pos]
+	FinPara
+FinFuncion
+Funcion presentar(valores,n)
+	para pos=1 hasta n Con Paso 1 Hacer
+		escribir "Numero[" valores[pos] "] "
+	FinParA
+FinFuncion
+funcion ejer57
+	Escribir "*** Ejercicio 57 ***"
+	Escribir "*** Buscar el indice *** "
+	Escribir "ingrese un numero del 1 al 10"
+	Leer n
+	Dimension valores[10]
+	si n>=10 Entonces
+		Escribir "El valor ingresado debe ser menor o igual a 10"
+	sino
+		ingresar(valores,n)
+		presentar(valores,n)
+	FinSi
+Finfuncion
 funcion ejer58
 	// 58. Función sin parámetros para saludar.
 	// ent. Funcion 
@@ -1539,22 +1539,21 @@ funcion ejer58
 	//Fin se mostara el saludo .
 	Escribir "*** Ejercicio 58 ***"
 	Escribir "*** Saludar ***"
-Escribir " Hola que tal ";
+	Escribir " Hola que tal ";
 FinFuncion
-Funcion ejer59
-	// 59. Función con parámetros para sumar dos números
-	// ent num1=0,num2=0,suma=0 
-	// pro "Ingrese un numero"
-	//leer num1
-	//"Ingrese el segundo numero"
-	//leer num2 
-	//suma=num1+num2
-	// "La suma de " num1 "+" num2 "= " suma
-	//FinFuncion
-	//Algoritmo 
+// 59. Función con parámetros para sumar dos números
+// ent num1=0,num2=0,suma=0 
+// pro "Ingrese un numero"
+//leer num1
+//"Ingrese el segundo numero"
+//leer num2 
+//suma=num1+num2
+// "La suma de " num1 "+" num2 "= " suma
+//FinFuncion
+//Algoritmo 
 //	ejer59_Suma(1)
-	//Fin. se mostara la suma de los 2 numeros
-	Escribir "*** Ejercicio 59 ***"
+//Fin. se mostara la suma de los 2 numeros
+funcion Ingresar1(a)
 	Escribir "*** Suma de dos numeros *** "
 	Escribir "Ingrese un numero"
 	leer num1
@@ -1563,20 +1562,22 @@ Funcion ejer59
 	suma=num1+num2
 	Escribir "La suma de " num1 "+" num2 "= " suma
 FinFuncion
-funcion ejer60
-	// 60. Función con return para multiplicar dos números.
-	// pro Funcion ejer60_multiplicacion_de_dos_numeos(1)
-	//"Ingrese un numero"
-	//leer num1
-	//"ingrese un segundo numero"
-	//leer num2
-	//mult=num1*num2
-	//"La muntiplicacion de: " num1 "*" num2 "= " mult
-	//FinFuncion
-	//Algoritmo 
+funcion ejer59
+	Ingresar1(a)
+FinFuncion
+// 60. Función con return para multiplicar dos números.
+// pro Funcion ejer60_multiplicacion_de_dos_numeos(1)
+//"Ingrese un numero"
+//leer num1
+//"ingrese un segundo numero"
+//leer num2
+//mult=num1*num2
+//"La muntiplicacion de: " num1 "*" num2 "= " mult
+//FinFuncion
+//Algoritmo 
 //	ejer60_multiplicacion_de_dos_numeos(1)
-	//Fin se mostrara la multiplicacion de los 2 numeros 
-	Escribir "*** Ejercicio 60 ***"
+//Fin se mostrara la multiplicacion de los 2 numeros 
+Funcion multiplicacion_de_dos_numeos(1)
 	Escribir "*** multiplicacion de dos numeros ***"
 	Escribir "Ingrese un numero"
 	leer num1
@@ -1585,21 +1586,23 @@ funcion ejer60
 	mult=num1*num2
 	Escribir "La muntiplicacion de: " num1 "*" num2 "= " mult
 FinFuncion
-funcion ejer61
-	// 61. Función sin return para determinar si un número es par o impar.
-	// ent. num1=0,multi=0
-	// pro "Ingrese un numero"
-	//leer num1
-	//si num1 mod 2=0 Entonces
+funcion ejer60
+	multiplicacion_de_dos_numeos(1)
+FinFuncion
+// 61. Función sin return para determinar si un número es par o impar.
+// ent. num1=0,multi=0
+// pro "Ingrese un numero"
+//leer num1
+//si num1 mod 2=0 Entonces
 //	"El numero es par"
-	//sino 
+//sino 
 //	"El numero es impar"
-	//FinSi
-	//FinFuncion
-	//Algoritmo EJER61
+//FinSi
+//FinFuncion
+//Algoritmo EJER61
 //	EJER61_funcion_sin_return(1) 
-	//Fin se mostara el numero si es par o impar
-	Escribir "*** Ejercicio 61 ***"
+//Fin se mostara el numero si es par o impar
+Funcion funcion_sin_return(1)
 	Escribir "*** Par o impar ***"
 	Escribir "Ingrese un numero"
 	leer num1
@@ -1609,21 +1612,23 @@ funcion ejer61
 		Escribir "El numero es impar"
 	FinSi
 FinFuncion
-funcion ejer62
-	// 62. Función con parámetros y return para calcular el área de un rectángulo.
-	// ent.base=0.0,altura=0.0, area=0.0 (base*altura)/2
-	//Funcion EJR62_Funcion_con_parametro(1)
-	//"Ingrese la base "
-	//leer base
-	//"Ingrese la altura "
-	//Leer altura 
-	//área=(base*altura)/2
-	//"El Área del triamgulo es: ", área 
-	//FinFuncion
-	//Algoritmo EJR62
+funcion ejer61
+	funcion_sin_return(1) 
+FinFuncion
+// 62. Función con parámetros y return para calcular el área de un rectángulo.
+// ent.base=0.0,altura=0.0, area=0.0 (base*altura)/2
+//Funcion EJR62_Funcion_con_parametro(1)
+//"Ingrese la base "
+//leer base
+//"Ingrese la altura "
+//Leer altura 
+//área=(base*altura)/2
+//"El Área del triamgulo es: ", área 
+//FinFuncion
+//Algoritmo EJR62
 //	EJR62_Funcion_con_PARAMETRO(1)
-	//FinA se mostara el area del triangulo	
-	Escribir "*** Ejercicio 62 ***"
+//FinA se mostara el area del triangulo
+Funcion Funcion_con_parametro(1)
 	Escribir "*** el area de un triangulo *** "
 	Escribir "Ingrese la base "
 	leer base
@@ -1632,86 +1637,96 @@ funcion ejer62
 	área=(base*altura)/2
 	Escribir "El Área del triamgulo es: ", área 
 FinFuncion
-funcion ejer63
-	// 63. Función sin parámetros para imprimir tu nombre.
-	// ent num=""
-	//pro Funcion EJR63_funcion_sin_parametros(1)
-	//"Ingresa tu nombre"
-	//Leer nom
-	//"Ahora se va imprimir"
-	//Imprimir nom
-	//Algoritmo EJR63
+Funcion ejer62
+	Funcion_con_PARAMETRO(1)
+FinFuncion
+// 63. Función sin parámetros para imprimir tu nombre.
+// ent num=""
+//pro Funcion EJR63_funcion_sin_parametros(1)
+//"Ingresa tu nombre"
+//Leer nom
+//"Ahora se va imprimir"
+//Imprimir nom
+//Algoritmo EJR63
 //	EJR63_funcion_sin_parametros(1)
-	//Fin se mostrara el nombre imprimido
-	Escribir "*** Ejercicio 63 ***"
+//Fin se mostrara el nombre imprimido
+Funcion funcion_sin_parametros(2)
 	Escribir "*** Imprimir Nombre ***"	
 	Escribir "Ingresa tu nombre"
 	Leer nom
 	Escribir "Ahora se va imprimir"
 	Imprimir nom
 FinFuncion
-Funcion ejer64
-	// 64. Función con return para convertir grados Celsius a Fahrenhei
-	//ent. c=0.0,f=0.0 (c*1.8)+32
-	//"Ingrese los grados centigrados"
-	//leer c
-	//f=(c*1.8)+32
-	// "La combercion de grados cetigrados a fahernheit es: " , f
-	//FinFuncion
-	//Algoritmo EJR64
+funcion ejer63
+	funcion_sin_parametros(2)
+FinFuncion
+// 64. Función con return para convertir grados Celsius a Fahrenhei
+//ent. c=0.0,f=0.0 (c*1.8)+32
+//"Ingrese los grados centigrados"
+//leer c
+//f=(c*1.8)+32
+// "La combercion de grados cetigrados a fahernheit es: " , f
+//FinFuncion
+//Algoritmo EJR64
 //	EJR64_funcion_con_retun(2)
-	//Fin se mostrarala combercion en grados cetigrados a fahernheit
-	Escribir "*** Ejercicio 64 ***"
-	Escribir "*** comvertir grados celsius a fahrenheit ***"
+//Fin se mostrarala combercion en grados cetigrados a fahernheit
+Funcion funcion_con_retun(2)
+	Escribir "** comvertir grados celsius a fahrenheit ***"
 	Escribir "Ingrese los grados centigrados"
 	leer c
 	f=(c*1.8)+32
 	Escribir "La combercion de grados cetigrados a fahernheit es: " , f
 FinFuncion
-funcion ejer65
-	// 65. Función con parámetros para contar un carácter en una frase.
-	// ent. frace="",c=""
-	// Funcion EJR65_Funcion_parametros(1)
-	// "Ingrese una frase"
-	//leer frase
-	//c=Longitud(frase) 
-	// "El total de caracteres de la frase " frase " son " c
-	//Algoritmo EJR65
+funcion ejer64
+	funcion_con_retun(2)
+FinFuncion
+// 65. Función con parámetros para contar un carácter en una frase.
+// ent. frace="",c=""
+// Funcion EJR65_Funcion_parametros(1)
+// "Ingrese una frase"
+//leer frase
+//c=Longitud(frase) 
+// "El total de caracteres de la frase " frase " son " c
+//Algoritmo EJR65
 //	EJR65_Funcion_parametros(1)
-	//Fin se mostara el total de caracteres de la frase
-	Escribir "*** Ejercicio 65 ***"
+//Fin se mostara el total de caracteres de la frase
+Funcion Funcion_parametros(3)
 	Escribir "*** Caracter de una frase ***"
 	Escribir "Ingrese una frase"
 	leer frase
 	c=Longitud(frase)
-	Escribir "El total de caracteres de la frase " c
+	Escribir "El total de caracteres de la frase " frase " son " c
 FinFuncion
-Funcion ejer66
-	// 66. Función sin return para imprimir números del 1 al 10.
-	// ent i=0
-	// pro Funcion EJR66_Función_sin_return(4)
-	//para i<-1 hasta 10 Con Paso 1 Hacer
+Funcion  ejer65
+	Funcion_parametros(3)
+FinFuncion
+// 66. Función sin return para imprimir números del 1 al 10.
+// ent i=0
+// pro Funcion EJR66_Función_sin_return(4)
+//para i<-1 hasta 10 Con Paso 1 Hacer
 //	Escribir i
-	//Algoritmo EJR66
+//Algoritmo EJR66
 //	EJR66_Función_sin_return(4)
-	//Fin se mostrara del 1 al 10
-	Escribir "*** Ejercicio 66 ***"
+//Fin se mostrara del 1 al 10
+Funcion Función_sin_return1(4)
 	Escribir "*** Numeros del 1 al 10 *** "
 	para i<-1 hasta 10 Con Paso 1 Hacer
 		Escribir i
 	FinPara
 FinFuncion
-funcion ejer67
-	// 67. Función con parámetros y return para sumar una lista de números.
-	// ent.i=1
-	//pro. Funcion EJR67_FUNCION_con_parametros_y_Retur(1)
+funcion ejer66
+	Función_sin_return1(4)
+FinFuncion
+// 67. Función con parámetros y return para sumar una lista de números.
+// ent.i=1
+//pro. Funcion EJR67_FUNCION_con_parametros_y_Retur(1)
 //	para i<-1 hasta 20 Con Paso 1 Hacer
 //		si i>0 Entonces
 //			Escribir i "+" i "=" i+i
-	//Algoritmo EJR67
+//Algoritmo EJR67
 //	EJR67_FUNCION_con_parametros_y_Retur(1)
-	//Fin. se mostara la suma de la lista de suma 
-	Escribir "*** Ejercicio 67 ***"
+//Fin. se mostara la suma de la lista de suma 
+Funcion FUNCION_con_parametros_y_Retur(1)
 	Escribir "*** Suma de una lisata de numeros *** "
 	para i<-1 hasta 20 Con Paso 1 Hacer
 		si i>0 Entonces
@@ -1719,48 +1734,51 @@ funcion ejer67
 		FinSi
 	FinPara
 FinFuncion
+funcion ejer67
+	FUNCION_con_parametros_y_Retur(1)
+FinFuncion
 Algoritmo Tarea1
-	 ejer1
-	 ejer2
-     ejer3
-	 ejer4
-	 ejer5
-	 ejer6
-	 ejer7
-	 ejer8
-	 ejer9
-	 ejer10
-	 ejer11
-	 ejer12
-	 ejer13
-	 ejer14
-	 ejer15
-	 ejer16
-	 ejer17
-	 ejer18
-	 ejer19
-	 ejer20
-	 ejer21
-	 ejer22
-	 ejer23
-	 ejer24
-	 ejer25
-	 ejer26
-	 ejer27
-	 ejer28
-	 ejer29
-	 ejer30_31_32
-	 ejer33
-	 ejer34
-	 ejer35
-	 ejer36_37_38_39
-	 ejer40
-	 ejer41
-	 ejer42
-	 ejer43
-	 ejer44
-	 ejer45
-	 ejer46
+	ejer1
+	ejer2
+	ejer3
+	ejer4
+	ejer5
+	ejer6
+	ejer7
+	ejer8
+	ejer9
+	ejer10
+	ejer11
+	ejer12
+	ejer13
+	ejer14
+	ejer15
+	ejer16
+	ejer17
+	ejer18
+	ejer19
+	ejer20
+	ejer21
+	ejer22
+	ejer23
+	ejer24
+	ejer25
+	ejer26
+	ejer27
+	ejer28
+	ejer29
+	ejer30_31_32
+	ejer33
+	ejer34
+	ejer35
+	ejer36_37_38_39
+	ejer40
+	ejer41
+	ejer42
+	ejer43
+	ejer44
+	ejer45
+	ejer46
 	 ejer47
 	 ejer48
 	 ejer49
@@ -1771,7 +1789,7 @@ Algoritmo Tarea1
 	 ejer54
 	 ejer55
 	 ejer56
-//	 ejer57
+	 ejer57
 	 ejer58
 	 ejer59
 	 ejer60
