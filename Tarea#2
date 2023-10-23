@@ -1,0 +1,898 @@
+funcion letras(frase) // ingresa todas las letras
+	Definir c, pon, x,f Como Entero
+	c=Longitud(frase)
+		x=1
+		f=1
+		Mientras x<=c
+			segun Subcadena(frase,x,x)
+				"a" o "A":
+					f=f+1
+				"b" o "B":
+					f=f+1
+				"c" o "C":
+					f=f+1
+				"d" o "D":
+					f=f+1
+				"e" o "E":
+					f=f+1
+				"f" o "F":
+					f=f+1
+				"g" o "G":
+					f=f+1
+				"h" o "H":
+					f=f+1
+				"i" o "I":
+					f=f+1
+				"j" o "J":
+					f=f+1
+				"k" o "L":
+					f=f+1
+				"l" o "I":
+					f=f+1
+				"m" o "M":
+					f=f+1
+				"n" o "N":
+					f=f+1
+				"ñ" o "Ñ":
+					f=f+1
+				"o" o "O":
+					f=f+1
+				"p" o "P":
+					f=f+1
+				"q" o "Q":
+					f=f+1
+				"r" o "R":
+					f=f+1
+				"s" o "S":
+					f=f+1
+				"t" o "T":
+					f=f+1
+				"u" o "U":
+					f=f+1
+				"v" o "V":
+					f=f+1
+				"w" o "W":
+					f=f+1
+				"x" o "X":
+					f=f+1
+				"y" o "Y":
+					f=f+1
+				"z" o "Z":
+			FinSegun
+			x=x+1
+		FinMientras
+	Escribir "La frase es: " frase " tiene " f " caracteres" // resultado
+FinFuncion
+Funcion signos(frase) // ingresa los signos
+	c=Longitud(frase)
+	x=1
+	f=0
+	Mientras x<=c
+		segun Subcadena(frase,x,x)
+			"," o ";":
+				f=f+1
+			"." o ":":
+				f=f+1
+		FinSegun
+		x=x+1
+	FinMientras
+	Escribir "La frase es: " frase " tiene " f " signos" // la resultado
+FinFuncion
+Funcion Ejer1
+	definir palabra Como Caracter // definir el valor
+	Escribir "Ingrese Una Frase"
+	Leer palabra// ingresar el valor
+	letras(palabra); signos(palabra) //funciones que hacen su parte
+FinFuncion
+Funcion num=numeros(frase) // funcion que le da al valor num lo que quiere
+	c=Longitud(frase)
+	x=1
+	f=0
+	Mientras x <= c
+		segun Subcadena(frase,x,x)
+			"0" o "0":
+				f=f+1
+			"1" o "1":
+				f=f+1
+			"2"o"2":
+				f=f+1
+			"3"o"3":
+				f=f+1
+			"4"o"4":
+				f=f+1
+			"5"o"5":
+				f=f+1
+			"6"o"6":
+				f=f+1
+			"7"o"7":
+				f=f+1
+			"8"o"8":
+				f=f+1
+			"9"o"9":
+				f=f+1
+		FinSegun
+		x=x+1
+	FinMientras
+	Escribir "La frase: " frase " Tiene " f " de numeros"// el resultado
+FinFuncion
+Funcion volc=vocales(frase)// la fucncion que le da al valor volc el resultado
+	c=Longitud(frase)
+	x=1
+	f=0
+	Mientras x<=c
+		segun Subcadena(frase,x,x)
+			"a" o "A":
+				f=f+1
+			"e" o "E":
+				f=f+1
+			"i" o "I":
+				f=f+1
+			"o" o "O":
+				f=f+1
+			"u" o "U":
+				f=f+1
+		FinSegun
+		x=x+1
+	FinMientras
+	Escribir "La frase: " frase " Tiene " f " de vocales"// el resultado
+FinFuncion
+funcion ejer2 
+	definir parlabras Como Caracter// definir los valores
+	Definir num, vocl Como Entero
+	Escribir "Ingrese una frase"
+	Leer palabras// ingresar los valores
+	Escribir "los caracteres ingresados son: " palabras
+	num=numeros(palabras)
+	vocl=vocales(palabras)
+FinFuncion
+funcion ejer3
+	Definir cara Como Caracter// definir los valores 
+	Escribir "Ingrese una frase"
+	Leer cara // ingreso de los valores
+	a=vocales(cara)// el proseso
+FinFuncion
+Funcion ejer4
+	definir num1,num2 Como Caracter // definir los valores
+	Escribir "Ingrese dos nombres"
+	leer num1,num2// ingresar los valores
+	c=Longitud(num1)
+	n=Longitud(num2)
+	si c=n Entonces// proseso
+		Escribir "Los nombres son iguales"
+	sino 
+		si c>n
+			Escribir "El nombre " num1 " numero 1 es el mayor"// el resultado
+			Escribir "El nombre " num2 " numero 2 es el menor"// el resultado
+		sino 
+			Escribir "El nombre " num2 " numero 2 es el mayor"// el resultado
+			escribir "El nombre " num1 " numero 1 es el menor"// el resultado
+		FinSi
+	FinSi
+FinFuncion
+Funcion ejer5
+	definir num1,num2 Como Caracter // definir los valores
+	Escribir "Ingrese dos numeros"
+	leer num1,num2// ingresar los valores
+	c=num1
+	n=num2
+	si c=n Entonces//proseso
+		Escribir "Los nombres son iguales"
+	sino 
+		si c>n
+			Escribir "El numbro " num1 " numero 1 es el mayor"// el resultado
+			Escribir "El numbro " num2 " numero 2 es el menor"// el resultado
+		sino 
+			Escribir "El numero " num2 " numero 2 es el mayor"// el resultado
+			escribir "El numero " num1 " numero 1 es el menor"// el resultado
+		FinSi
+	FinSi
+FinFuncion
+funcion ejer6
+	Definir num1,num2,num3 Como Entero// definir los valores
+	Escribir "Ingrese 3 numeros"
+	leer num1,num2,num3// ingesar los valores
+	si num1=num2 Entonces// el proseso
+		si num2=num3
+			Escribir "los numeros son iguales"
+		sino 
+			Escribir "El numero 3 es: " num3 " es el mayor"// el resultado
+		FinSi
+	sino 
+		si num1>num2 Entonces
+			si num1>num3
+				Escribir "El numero 1 es: " num1 " es el mayor"// el resultado
+			sino 
+				Escribir "El numero 3 es: " num3 " es el mayor"// el resultado
+			FinSi
+		SiNo
+			si num2>num3 Entonces
+				Escribir "El numero 2 es: " num2 " es el mayor"// el resultado
+			sino 
+				Escribir "El numero 3 es: " num3 " es el mayor"// el resultado
+			FinSi
+		FinSi
+	FinSi
+FinFuncion
+Funcion ejer7
+	Definir num1 Como Entero // definir los valores
+	Escribir "Ingrese un numero"
+	leer num1 // ingresar los valores
+	si num1=0 Entonces
+		Escribir "El numero es neutro"// el resultado
+	sino
+		si num1>0
+			Escribir "el numero es positivo"// el resultado
+		SiNo
+			Escribir "El numero es negativo"// el resultado
+		FinSi
+	FinSi
+FinFuncion
+Funcion ejer8
+	Definir lapis,precio Como Entero // definir los valores
+	Escribir "Ingrese la cantidad de lapizes que comprara"
+	leer lapis // ingresar el valor
+	si lapis>1000 Entonces// el proseso 
+		Escribir "El costo es por lapis es de 1$" // el resultado
+	SiNo
+		Escribir "El coste es por lapis es de 1,50$"// el resultado
+	FinSi
+FinFuncion
+Funcion ejer9
+	definir descuento,descuento2,pordes,pordes2,precio Como real // decñaracion de los valores
+	Escribir "SOMOS MAS"
+	Escribir "Ingrese el precio del poducto"
+	Leer precio//definr el valor
+	pordes=0.15
+	descuento=precio*pordes
+	total=precio-descuento
+	pordes2=0.08
+	descuento2=precio*pordes2
+	total2=precio-descuento2
+	si precio>2500 Entonces// el proceso
+		Escribir "Sele aplicara un decuento del 15%"// el resultado
+		Escribir total// el resultado
+	sino 
+		Escribir "Sele aplicara un descuento del 8%"// el resultado
+		Escribir total2// el resultado
+	FinSi
+FinFuncion
+funcion ejer10
+	definir personas,total Como Entero// definir los valores
+	Escribir "SOMOS MAS"
+	Escribir "Ingrese el total de personas"
+	leer personas// ingresar los valores
+	si personas>300 Entonces// el proseso
+		Escribir "El coste por platillo es de 75.00$"
+		total=personas*75.00
+		Escribir "El precio total es de: " total "$"// el resultado
+	sino 
+		si personas>200 y personas<=300 Entonces
+			Escribir "El coste por platillo es de 85.00$"
+			total=personas*85.00
+			Escribir "El precio total es de: " total "$"// el resultado
+		sino 
+				Escribir "El coste por platillo es de 95.00$"
+				total=personas*95.00
+				Escribir "El precio total es de: " total "$"// el resultado
+		FinSi
+	FinSi
+FinFuncion
+funcion ejer11
+	Definir tamaño, cantidad Como Entero // definir las valores
+	Definir uva,tipoa,tipob Como Caracter// definir las valores
+	Escribir "Ingrese el tipo de uva, el tamaño y la cantidad"
+	leer uva,tamaño,cantidad// ingresar los valores
+	tipoa="Tipo a"
+	tipob="Tipo b"
+	si uva=tipoa y tamaño=1 Entonces// El proseso 
+		Escribir "La uva es Tipo A tamaño 1"
+		Escribir "El precio es de 20$"
+		total=cantidad*20
+		Escribir "El total de precio es de: " total // el resultado
+	sino 
+		si uva=tipoa y tamaño=2 Entonces
+		Escribir "la uva es Tipo A tamaño 2"
+		escribir "El precio es de 30$"
+		total=cantidad*30
+		Escribir "El total de precio es de: " total// el resultado
+	sino 
+		si uva=tipob y tamaño=1 Entonces
+			Escribir "La uva es tipo B tamaño 1"
+			Escribir "re rebaja un 30$"
+			total=cantidad*0.30
+			rebaja=cantidad-total
+			Escribir "El total de precio es de: " rebaja// el resultado
+		sino 
+			Escribir "La uva es tipo B tamaño 2"
+			Escribir "se rebaja un 50$"
+			total=cantidad*0.50
+			rebaja=cantidad-total
+			Escribir "El total de precio es de: " rebaja
+		FinSi
+		finsi
+	FinSi
+FinFuncion
+funcion ejer12 
+	definir alumnos,pagar Como Entero// definir el valor
+	Escribir "Ingrese la cantidad de alumnos "
+	leer alumnos// ingresar el valor
+	si alumnos>=100 Entonces// el proseso 
+		Escribir "El costo por alumnos es de 65.00$"
+		total=alumnos*65.00
+		Escribir "El costo total es de: " total "$"// el resultado
+	sino  
+		si alumnos>=50 y alumnos<=99
+			Escribir "El coste por alumno es de 70.00$"
+			total=alumnos*70.00
+			Escribir "El costo total es de: " total "$"// el resultado
+		sino 
+			si alumnos>=30 y alumnos<=49 Entonces
+				Escribir "El coste por alumnos es de 95.00$"
+				total=alumnos*95.00
+				Escribir "El costo total es de: " total "$"// el resultado
+			sino 
+				Escribir "El costo de la renta del autobus es de 4000.00$ "
+			FinSi
+		FinSi
+	FinSi
+FinFuncion
+funcion ejer13
+	Definir personas,total Como Entero // definir el valor
+	Definir tipoa,tipob,tipoc,tipo Como Caracter// definir le valor
+	Escribir "Ingrese la cantidad de personas"
+	leer personas// ingresar los valores
+	tipoa="Tipo a"
+	tipob="Tipo b"
+	tipoc="Tipo c"
+	si personas >= 20 Entonces// proseso
+		Escribir "Ingrese una compañia de viases de estos tres tipos: Tipo a , Tipo b, Tipo c"
+		leer tipo
+		si tipo=tipoa Entonces
+			Escribir "El costo por persona es de 2.0$"
+			total=personas*2.0
+			Escribir "el total a pagar es de: " total// el resultado
+		sino 
+			si tipo=tipob Entonces
+				Escribir "El costo por persona es de 2.5$"
+				total=personas*2.5
+				Escribir "el total a pagar es de: " total// el resultado
+			sino 
+				si tipo=tipoc
+					Escribir "El costo por persona es de 3.0$ "
+					total=personas*3.0
+					Escribir "el total a pagar es de: " total// el resultado
+				FinSi
+			FinSi
+		FinSi
+	SiNo
+		Escribir "El minimo de personas es de 20"// el resultado
+	FinSi
+FinFuncion
+funcion ejer14
+	definir colas, total,poriva,iva,porpre,pre Como real // definir las variables
+	Escribir "Ingrese la cantidad de colas"
+	leer colas// ingresar las variables
+	si colas>23 Entonces// el proseso
+		Escribir "El costo por cola es de 0.50$"
+		Escribir "Se le aplicara el 12% iva"
+		colas=colas*0.50
+		poriv=colas*0.12
+		iva=colas+poriv
+		total=colas+iva
+		Escribir  "el total sin iva es: " colas "$"// el resultado
+		Escribir "El con el iva es de: " iva "$"// el resultado
+		Escribir "El total a pagar es: " total "$"// el resultado
+	sino 
+		Escribir "El costo por cola es del 0.50$ mas 20%"
+		Escribir "Sele aplicra el 12% del iva"
+		colas=colas*0.50
+		porpre=colas*0.20
+		pre=colas+porpre
+		poriv=pre*0.12
+		iva=pre+poriv
+		total=pre+iva
+		Escribir  "el total sin iva es: " pre "$"// el resultado
+		Escribir "El con el iva es de: " iva "$"// el resultado
+		Escribir "El total a pagar es: " total "$"// el resultado
+	FinSi
+FinFuncion
+Funcion ejer15
+	Definir producto,precio,pordes1,pordes2,pordes3,descuento1,descuento2,descuento3,total Como real // definir las variables
+	Escribir "Ingrese el total de productos y el precio a pagar"
+	leer producto,precio // ingresar las variables
+	si producto>19 Entonces// el proseso 
+		Escribir "Se aplicara 10% de descuento"
+		pordes1=precio*0.10
+		descuento1=precio-pordes1
+		total=precio-descuento1
+		Escribir "adicional un 5% de descuento"
+		pordes3=precio*0.05
+		descuento3=precio-pordes3
+		pagar=precio-descuento3
+		Escribir "La cantidad del producto es: " producto// el resultado
+		Escribir "El precio inicial es de: " precio// el resultado
+		Escribir "El descuento inicial es de: " descuento1// el resultado
+		Escribir "El total: " total// el resultado
+		Escribir "El descuento adicional " descuento3// el resultado
+		Escribir "El total a pagar: " pagar// el resultado
+	sino 
+		Escribir "Se aplicara un 20% de descuento"
+		pordes1=precio*0.20
+		descuento1=precio-pordes1
+		total=precio-descuento1
+		Escribir "adicional un 5% de descuento"
+		pordes3=precio*0.05
+		descuento3=precio-pordes3
+		pagar=total+descuento3
+		Escribir "La cantidad del producto es: " producto// el resultado
+		Escribir "El precio inicial es de: " precio// el resultado
+		Escribir "El descuento inicial es de: " descuento1// el resultado
+		Escribir "El total: " total// el resultado
+		Escribir "El descuento adicional " descuento3// el resultado
+		Escribir "El total a pagar: " pagar// el resultado
+	FinSi
+FinFuncion
+Funcion ejer16
+	Definir cita,cita2,cita3, precio Como Entero // definir las valores
+	Escribir "Ingrese el total de citas que hizo en el primer tratamiento"
+	leer cita// ingresar las variavles
+	si cita=3 Entonces
+		Escribir "El valor de las 3 citas so de 200.00$"
+		precio=precio+200.00
+	sino 
+		si cita>0 Entonces
+			Escribir "El valor restante de la cita es de 50.00$"
+			precio=precio+50
+	    sino 
+			total=precio
+			Escribir "El Total es:" total// el resultado
+	    FinSi
+	FinSi
+	Escribir "ingrese el total de citas que hizo en el segundo tratamiento"
+	leer cita2
+	si cita2=2 Entonces
+		Escribir "EL valor de las segunda cita es de 150.00$"
+		precio=precio+150
+	sino 
+		si cita2>0 Entonces
+		 Escribir "El valor restante de la cita es de 50.00$"
+		 precio=precio+50
+	    sino 
+			total=precio
+			Escribir "El Total es:" total// el resultado
+	    FinSi
+	FinSi
+	Escribir "Ingre el total de citas que hizo en el terser tratamiento"
+	leer cita3
+	si cita3=3 Entonces
+		Escribir "El valor de la tersera cita es de 100.00$"
+	SiNo
+		si cita3>0 Entonces
+			Escribir "El valor restante de la cita es de 50.00$"
+			precio=precio+50
+	    sino 
+			total=precio
+			Escribir "El Total es:" total// el resultado
+	    FinSi
+	FinSi
+	total=precio
+	Escribir "El total a pagar es: " total// el resultado
+FinFuncion
+funcion ejer17
+	
+FinFuncion
+funcion ejer18
+	Definir targeta,tipos Como Caracter// definir las variables
+	Escribir "Ingrese que tipo de tarjeta"
+	leer targeta// ingresar las variables
+	tipo1="Tipo 1"
+	tipo2="Tipo 2"
+	tipo3="Tipo 3"
+	si targeta=tipo1 Entonces// el proseso 
+		Escribir " optiene un aumento del 25%"// el resultado
+	SiNo
+		si targeta=tipo2 Entonces
+			Escribir "Optiene un aumento del 35%"// el resultado
+		sino 
+			si targeta=tipo3 Entonces
+				Escribir "Optiene un aumento del 40%"// el resultado
+			sino 
+				Escribir "Optiene un aumento del 50%"// el resultado
+			FinSi
+		FinSi
+	FinSi
+FinFuncion
+Funcion ejer19
+	definir zona,embio Como Caracter // definir el valor
+	definir costo,paquete Como entero// definir le valor
+	Escribir "ingrese el peso del paquiete(en kilos)"
+	leer paquete// ingresar el valor
+	Escribir "Ingrese el lugar donde quiere embiar el paquete"
+	leer embio // ingresar el valor
+	zona1="América del norte";zona2="América Central";zona3="America del Sur"
+	zona4="Europa";zona5="Asia"
+	si paquete>5 Entonces
+		Escribir "segun nuestra politica no podemos embiarlo"// el resultado
+	SiNo
+		si embio=zona1 Entonces
+			Escribir "El coste de embio es de 11.00$"// el resultado
+		sino 
+			si embio=zona2 Entonces
+				Escribir "El coste de embio es de 10.00$"// el resultado
+			sino 
+				si embio=zona3 Entonces
+					Escribir "El coste de embio es de 12.00$"// el resultado
+				SiNo
+					si embio=zona4 Entonces
+						Escribir "El coste de embio es de 24.00$"// el resultado
+					SiNo
+						Escribir "El coste de embio es de 27.00$"// el resultado
+					FinSi
+				FinSi
+			FinSi
+		FinSi
+	FinSi
+FinFuncion
+funcion ejer20
+	Definir alumno1,alumno2,alumno3,alumno4,alumno5 Como Entero// definir las variables
+	Escribir "Ingrese el peso (kg) de los alumnos"
+	leer alumno1,alumno2,alumno3// ingresar las variables
+	si alumno1>40 y alumno1<50// el proseso 
+	 Escribir "El alumno pesa en los 40kg y 50kg "// el resultado
+		
+	sino 
+		si alumno1<40 
+			Escribir "El alumno pesa menos que 40kg"// el resultado
+		sino 
+			si alumno1>=50 y alumno1<60
+				Escribir "El alumno pesa entra 50kg y 60kg"// el resultado
+			sino 
+				Escribir "El alumno pesa mas de 60kg"// el resultado
+			FinSi
+			
+		FinSi
+	FinSi
+	si alumno2>40 y alumno2<50
+		Escribir "El alumno pesa en los 40kg y 50kg "// el resultado
+		
+	sino 
+		si alumno2<40 
+			Escribir "El alumno pesa menos que 40kg"// el resultado
+		sino 
+			si alumno2>50 y alumno2<60
+				Escribir "El alumno pesa entra 50kg y 60kg"// el resultado
+			sino 
+				Escribir "El alumno pesa mas de 60kg"// el resultado
+			FinSi
+			
+		FinSi
+	FinSi
+	si alumno3>40 y alumno3<50
+		Escribir "El alumno pesa en los 40kg y 50kg "// el resultado
+		
+	sino 
+		si alumno3<40 
+			Escribir "El alumno pesa menos que 40kg"// el resultado
+		sino 
+			si alumno3>50 y alumno3<60
+				Escribir "El alumno pesa entra 50kg y 60kg"// el resultado
+			sino 
+				Escribir "El alumno pesa mas de 60kg"// el resultado
+			FinSi
+			
+		FinSi
+	FinSi
+FinFuncion
+funcion ejer21
+	Definir num1,num2,num3,num4 Como Real// definir los valores
+	Escribir "Ingrese 4 numeros"
+	leer num1,num2,num3,num4// ingresar el valor
+	mitad=num2/2
+	divisor=num4/2
+	si num1=mitad Entonces// el proseso 
+		Escribir "El numero 1 es la mitad del numero 2"// el resultado
+	sino 
+		Escribir "El numero 1 no es la mitad del numero 2"// el resultado
+	FinSi
+	si num3=divisor Entonces
+		Escribir "El numero 3 es divisor del numero 4"// el resultado
+	sino 
+		Escribir "EL numero 3 no es divisor del numero 4"// el resultado
+	FinSi
+FinFuncion
+funcion ejer22
+	definir num1,num2,num3 Como real// definir los valores
+	Definir dias Como Caracter// definir los valores
+	Escribir "Dia de la semana ingrese tres numeros"
+	leer num1,num2,num3// ingresar los valores
+	num1=num2+num2
+	num3por=num3-2
+	num1por=num1-num3por
+	num1tol=num1-num1pro
+	Para pro<-1 Hasta 1 Con Paso 1 Hacer// el proceso 
+		Segun num1tol Hacer
+			1.0:
+				Escribir "dia lunes"// el resultado
+			2.0:
+				Escribir "dia Martes"// el resultado
+			3.0:
+				Escribir "dia miercoles"// el resultado
+			4.0:
+				Escribir "dia Jueves"// el resultado
+			5.0:
+				Escribir "dia Viernes"// el resultado
+			6.0:
+				Escribir "Savado"// el resultado
+			7.0:
+				Escribir "dia Domingo"// el resultado
+			De Otro Modo:
+				Escribir "Dia no existente"// el resultado
+		Fin Segun
+	Fin Para
+FinFuncion
+Funcion ejer23
+	definir num1 Como Entero // definir los valores
+	Escribir "Ingrese un numero"
+	leer num1 // ingresar los valores
+	si num1<=7 Entonces// el proseso 
+		Segun num1 Hacer
+			1:
+				Escribir "dia lunes"// el resultado
+			2:
+				Escribir "dia Martes"// el resultado
+			3:
+				Escribir "dia miercoles"// el resultado
+			4:
+				Escribir "dia Jueves"// el resultado
+			5:
+				Escribir "dia Viernes"// el resultado
+			6:
+				Escribir "Savado"// el resultado
+			7:
+				Escribir "dia Domingo"// el resultado
+		Fin Segun
+	sino 
+		Escribir "Dia no existente"// el resultado
+	FinSi
+FinFuncion
+Funcion ejer24
+	definir num1 Como Entero// definir los valores
+	Escribir "Ingrese un numero y saldra un mes del año"
+	leer num1//ingresar los valores
+	si num1<=7 Entonces // el Proceso dela operacion
+		Segun num1 Hacer
+			1:
+				Escribir "Enero"// el resultado
+			2:
+				Escribir "Febrero"// el resultado
+			3:
+				Escribir "Marzo"// el resultado
+			4:
+				Escribir "Abril"// el resultado
+			5:
+				Escribir "Mayo"// el resultado
+			6:
+				Escribir "Junio"// el resultado
+			7:
+				Escribir "Julio"// el resultado
+			8:
+				Escribir "Agosto"// el resultado
+			9:
+				Escribir "Septiembre"// el resultado
+			10:
+				Escribir "Octubre"// el resultado
+			11:
+				Escribir "Noviembre"// el resultado
+			12:
+				Escribir "Diciembre"// el resultado
+		Fin Segun
+	sino 
+		Escribir "Mes no existente"// el resultado
+	FinSi
+FinFuncion
+Funcion ejer25
+	Definir altura Como real// definir los valores
+	Repetir// el proseso de la operacion
+		Escribir "Ingrese su estatura"
+		leer altura// ingresar los valores
+		Escribir "Su altura es de: " altura// el resultado
+		x=x+1
+	Hasta Que x=10
+FinFuncion
+Funcion ejer26
+	definir num1 Como entero// definir los valores
+	num1=0// ingresar valores
+	mientras num1 <= 100 Hacer// el Proceso de la operacion
+		si num1 mod 2 = 0 Entonces
+			Escribir num1// el resultado
+		FinSi
+		num1=num1+1
+	FinMientras
+FinFuncion
+funcion ejer27
+	definir num1,suma,x Como Real// definir los valores
+	para x=1 hasta 10 Hacer// el proseso de la operacion
+		Escribir "Ingrese un numero"
+		leer num1// ingresar los valores
+		suma= suma + num1
+	FinPara
+	Escribir "La suma de los numeros ingresado es de: " suma// el resultado
+FinFuncion
+Funcion ejer28
+	definir total,edad,suma Como Entero// definir los valores
+	definir promedio Como Real// definir los valores
+	Escribir "Ingrese la cantidad de alumnos"
+	leer total// ingresar los valores
+	x=1
+	suma=0
+	mientras x<= total hacer// el proseso de la operacion
+		Escribir "Ingresa tu edad"
+		leer edad
+		suma=suma+edad
+		x=x+1
+	FinMientras
+	Escribir "El promdedio de edades del grupo es: " suma/total// el resultado 
+FinFuncion
+Funcion ejer29
+	definir x,horas Como Entero// definir los valores
+	definir pago,total,sueldo Como Real// definir los valores
+	Escribir "Ingrese el pago por hora"
+	leer pago// ingresar los valores
+	x=1
+	total=0
+	sueldo=0
+	Mientras x<= 20// el proseso de la operaciom
+		Escribir "Ingrese las horas trabajadas en el dia"
+		leer horas// ingresar los valores
+		total=total+horas
+		sueldo=sueldo+(horas*pago)
+		x=x+1 
+	FinMientras
+	Escribir "El sueldo total por " total " Horas es : $", sueldo// el resultado
+FinFuncion
+funcion ejer30
+	definir num1 Como Real// definir los valores
+	para x=1 hasta 5 Hacer// el proceso de la opreracion
+		Escribir "Ingrese las ventas del dia"
+		leer num1// ingresar los valores
+		si num1>1000 Entonces
+			Escribir "Compra es mayor de 1000$"// el resultado
+		sino 
+			si num1>500 y num1<1000 Entonces
+				Escribir "La compra fue mayor a 500$ y menor de 1000$"// el resultado
+			sino 
+				si num1<=500
+					Escribir "La compra fue menor a 500$"// el resultado
+				FinSi
+			FinSi
+		FinSi
+	FinPara
+FinFuncion
+funcion ejer31
+	definir log,requeri,calculo,total Como Real// definir los valores
+	para x=1 hasta 10 Hacer// el proseso de la operacion
+		Escribir "Ingrese un las nota final de logica,requerimiento,calculo"
+		leer log,requeri,calculo// ingreasr los valores
+		total=(log+requeri+calculo)/3
+		Escribir "EL estudiante numero " x " la nota total del primer semestre es: " total // el resultado
+	FinPara
+FinFuncion
+Funcion ejer32
+	definir categoriaus,categoria,categoriab,categoriac Como caracter // definir los valores
+	Definir sueldo Como Entero// definir los valores
+	para x=1 hasta 5 Hacer// el proseso de la operacion
+		Escribir "ingrese si categoria de profecion en la UNEMI"
+		leer categoriaus// ingresar los valores
+		Escribir "Ingrese el promedo del sueledo"
+		leer sueldo// ingresar los valores
+		categoriaa="Auxiliar"
+		categoriab="Agrefado"
+		categoriac="principal"
+		si categoriaus=categoriaa Entonces
+			Escribir "Su sueldo es de: " sueldo 
+			Escribir "Optiene un intemento del 10%"// el resultado
+		sino
+			si categoriaus=categoriab Entonces
+				Escribir "Su sueldo es de: " sueldo 
+				Escribir "Optiene un intremento del 20%"// el resultado
+			sino 
+				si categoriaus=categoriac Entonces
+					Escribir "Su sueldo es de: " sueldo 
+					Escribir "Optiene un intremento del 50%"// el resultado
+				sino 
+					Escribir "no optiene incrtemento"// el resultado
+					x=x+5
+				FinSi
+			FinSi
+		FinSi
+	FinPara
+FinFuncion
+Funcion ejer33
+	definir pasaje,recorido Como Real// definir los valores 
+	para x=1 hasta 5 Hacer// el proceso de la operacion
+		Escribir "Ingrese el precio del pasaje"
+		leer pasaje// ingresar los valores
+		Escribir "Ingrese la distancia en km"
+		leer recorrido// ingresar los valores
+		si recorrido<=100 Entonces
+			Escribir "El pasaje no tiene inclemento"
+			f=f+1
+			suma1=f
+		sino 
+			si recorrido>100 Entonces
+				Escribir "El pasaje tiene un incremento del 20%"
+				n=n+1
+				suma2=n
+			FinSi
+		FinSi
+	FinPara
+	Escribir "La cantidad de persona que recorieron 100km fueron: " suma1// el resultado
+	Escribir "La cantidad de personas que recorieron mas de 100km fueron: " suma2// el resultado
+FinFuncion
+Funcion ejer34
+	definir num Como Entero// definir los valores
+	para x=1 hasta 10 Hacer// Proceso de la operacion
+		Escribir "Ingrese un numero"
+		leer num// ingresar los valores
+		si num=0 Entonces
+			Escribir "El numero ingresado es cero"// el resultado
+			x=x+10
+		sino 
+			Escribir "El numero ingresado es: " num// el resultado
+		FinSi
+	FinPara
+FinFuncion
+Funcion ejer35
+	definir num Como Entero// definir los valores
+	para x=1 hasta 10 Hacer// el proseso de la operacion
+		Escribir "ingrese un numero"
+		leer num//ingrear los valores
+		si num<0 Entonces
+			Escribir "El numero es negativo"
+			x=x+10
+		sino 
+			si num mod 3 = 0 Entonces
+				Escribir "el numero ingresado es un multiplo de 3"// el resultado
+			sino 
+				Escribir "El numero no es multiplo de 3"// el resultado
+			FinSi
+		FinSi
+	FinPara
+FinFuncion
+Algoritmo tare2
+	// Ejer1
+	// ejer2
+	// ejer3
+	// ejer4
+	// ejer5
+	// ejer6
+	// ejer7
+	// ejer8
+	// ejer9
+	// ejer10
+	// ejer11
+	// ejer12
+	// ejer13
+	// ejer14
+	// ejer15
+	// ejer16
+	// ejer17
+	// ejer18
+	// ejer19
+	// ejer20
+	// ejer21
+	// ejer22
+	// ejer23
+	// ejer24
+	// ejer25
+	// ejer26
+	// ejer27
+	// ejer28
+	// ejer29
+	// ejer30
+	// ejer31
+	// ejer32
+	// ejer33
+	// ejer34
+	// ejer35
+FinAlgoritmo
